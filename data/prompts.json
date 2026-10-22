@@ -1,5 +1,321 @@
 [
   {
+    "id": "sticker-sheet-cute-pet",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Kawaii Pet Emoji Sticker Sheet",
+        "description": "Generate a multi-expression die-cut sticker sheet of cute pets for messaging apps.",
+        "tags": [
+          "sticker",
+          "emoji",
+          "midjourney",
+          "cat",
+          "cute",
+          "dall-e"
+        ],
+        "prompt": "Sticker sheet of [subject, e.g. a chubby British Shorthair cat], multiple funny expressions and poses including [e.g. shocked with wide eyes, happily sipping boba tea, wearing cool sunglasses, dramatic crying, thumbs up, facepalm], die-cut sticker pack, clean white border outline, kawaii illustration style, bright pastel colors, clean isolated white background, high resolution, vector art style --ar 1:1 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "萌寵搞怪表情包貼圖套組",
+        "description": "一次生成多款生動逗趣表情的白邊貼圖集合，適合製作通訊軟體表情貼。",
+        "tags": [
+          "貼圖",
+          "表情包",
+          "Midjourney",
+          "DALL-E",
+          "貓咪",
+          "萌寵"
+        ],
+        "prompt": "Sticker sheet of [主體，例如：a chubby British Shorthair cat], multiple funny expressions and poses including [例如：shocked with wide eyes, happily sipping boba tea, wearing cool sunglasses, dramatic crying, giving thumbs up, facepalm], die-cut sticker pack, clean white border outline, kawaii illustration style, bright pastel colors, clean isolated white background, high resolution, vector art style --ar 1:1 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可自訂括號內的動物主體與表情動作！"
+      }
+    }
+  },
+  {
+    "id": "blind-box-3d-clay-toy",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Pop Mart Style 3D Blind Box Toy",
+        "description": "Create an adorable 3D collectible blind box designer toy with clay and resin texture.",
+        "tags": [
+          "pop mart",
+          "blind box",
+          "3d",
+          "toy",
+          "claymation",
+          "cute"
+        ],
+        "prompt": "A 3D Pop Mart style blind box collectible toy figurine of [character, e.g. a grumpy little astronaut Shiba Inu holding a glowing star], smooth clay and vinyl texture, chibi proportions, cute glossy finish, studio lighting, soft pastel aesthetic backdrop, depth of field, ray tracing, Octane Render, 8k resolution, cinematic lighting --ar 1:1 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "潮玩 Pop Mart 風格 3D 盲盒公仔",
+        "description": "打造泡泡瑪特質感的 3D 潮流公仔，具備黏土與樹脂光澤感，極具收藏感。",
+        "tags": [
+          "盲盒",
+          "3D公仔",
+          "Pop Mart",
+          "潮玩",
+          "黏土",
+          "公仔"
+        ],
+        "prompt": "A 3D Pop Mart style blind box collectible toy figurine of [角色主體，例如：a grumpy little astronaut Shiba Inu holding a glowing star], smooth clay and vinyl texture, chibi proportions, cute glossy finish, studio lighting, soft pastel aesthetic backdrop, depth of field, ray tracing, Octane Render, 8k resolution, cinematic lighting --ar 1:1 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可自由更換角色造型、手持配件與色彩風格。"
+      }
+    }
+  },
+  {
+    "id": "anthropomorphic-animal-office",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Exhausted Animal Office Worker",
+        "description": "Humorous photorealistic scene of an anthropomorphic animal surviving the modern corporate grind.",
+        "tags": [
+          "funny",
+          "animals",
+          "office",
+          "photography",
+          "humor",
+          "candid"
+        ],
+        "prompt": "A candid photorealistic medium shot of [animal, e.g. an exhausted golden retriever dressed in a crumpled business suit and crooked tie], sitting at a cluttered office desk surrounded by stacks of paper and empty coffee mugs, staring hopelessly at a computer screen, fluorescent office lighting, moody corporate atmosphere, documentary photography, cinematic, 35mm lens, high detail --ar 16:9 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "擬人化動物社畜辦公室抓拍",
+        "description": "極具反差萌與幽默感的寫實攝影，動物穿著西裝在辦公室崩潰加班的趣味日常。",
+        "tags": [
+          "社畜",
+          "擬人化",
+          "動物攝影",
+          "搞笑",
+          "幽默",
+          "寫實"
+        ],
+        "prompt": "A candid photorealistic medium shot of [動物，例如：an exhausted golden retriever dressed in a crumpled business suit and crooked tie], sitting at a cluttered office desk surrounded by stacks of paper and empty coffee mugs, staring hopelessly at a computer screen, fluorescent office lighting, moody corporate atmosphere, documentary photography, cinematic, 35mm lens, high detail --ar 16:9 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可換成橘貓、樹懶、哈士奇或水豚，喜感加倍！"
+      }
+    }
+  },
+  {
+    "id": "miniature-world-food-adventure",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Miniature World Foodscape Adventure",
+        "description": "Tilt-shift macro photography of tiny human figures adventuring on gigantic food items.",
+        "tags": [
+          "miniature",
+          "tilt-shift",
+          "macro",
+          "food",
+          "photography",
+          "creative"
+        ],
+        "prompt": "A macro tilt-shift photograph of tiny miniature construction workers and mountaineers scaling a [giant food item, e.g. a huge freshly baked croissant with chocolate drizzle], using toothpicks as ladders and powdered sugar as snow, shallow depth of field, warm morning bakery lighting, whimsical diorama, hyper-detailed textures, National Geographic miniature series style --ar 16:9 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "微縮人國巨型食物奇幻探險",
+        "description": "微距移軸攝影風格，迷你小人在巨大的甜點、水果或麵包上攀岩施工的奇幻小人國世界。",
+        "tags": [
+          "微縮世界",
+          "小人國",
+          "食物攝影",
+          "微距攝影",
+          "奇幻",
+          "移軸"
+        ],
+        "prompt": "A macro tilt-shift photograph of tiny miniature construction workers and mountaineers scaling a [巨型食物，例如：a huge freshly baked croissant with chocolate drizzle], using toothpicks as ladders and powdered sugar as snow, shallow depth of field, warm morning bakery lighting, whimsical diorama, hyper-detailed textures, National Geographic miniature series style --ar 16:9 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可替換食物：巨大草莓蛋糕、抹茶冰淇淋山、炙燒鮭魚握壽司。"
+      }
+    }
+  },
+  {
+    "id": "retro-1930s-rubberhose-stickers",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Retro 1930s Rubber Hose Cartoon Stickers",
+        "description": "Vintage Cuphead-style cartoon sticker pack featuring whimsical retro characters.",
+        "tags": [
+          "retro",
+          "vintage",
+          "cartoon",
+          "stickers",
+          "cuphead",
+          "1930s"
+        ],
+        "prompt": "A collection of 1930s rubber hose vintage cartoon stickers of [character/objects, e.g. cheeky mischievous breakfast items: walking coffee cup with a mustache, screaming toaster, dancing sunny-side-up egg], bold black outlines, pie eyes, halftone dot textures, muted vintage color palette, die-cut white borders, nostalgic retro animation style --ar 1:1 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "復古 1930s 美式橡皮管卡通貼紙",
+        "description": "宛如《茶杯頭（Cuphead）》經典復古美漫風格，充滿俏皮動作與懷舊網點質感的搞怪貼圖。",
+        "tags": [
+          "復古美漫",
+          "茶杯頭",
+          "卡通貼紙",
+          "美式復古",
+          "橡皮管動畫"
+        ],
+        "prompt": "A collection of 1930s rubber hose vintage cartoon stickers of [角色或物件，例如：cheeky mischievous breakfast items: walking coffee cup with a mustache, screaming toaster, dancing sunny-side-up egg], bold black outlines, pie eyes, halftone dot textures, muted vintage color palette, die-cut white borders, nostalgic retro animation style --ar 1:1 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可更換為：復古文具、老爺車、戴帽子的小動物等。"
+      }
+    }
+  },
+  {
+    "id": "absurd-surreal-candid-street",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Absurd & Surreal Candid Street Photo",
+        "description": "Bizarre, deadpan everyday street scenes captured with documentary realism.",
+        "tags": [
+          "street photography",
+          "surreal",
+          "humor",
+          "candid",
+          "cinematic",
+          "weird"
+        ],
+        "prompt": "A candid street photograph taken on 35mm film of [absurd scenario, e.g. an elderly lady in a full retro Apollo astronaut suit calmly bargaining for fresh vegetables at a bustling traditional street market], natural candid lighting, gritty film grain, authentic street photography style in the vein of Martin Parr, vivid colors, raw and unposed moment, high realism --ar 4:3 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "超現實日常荒謬街頭抓拍",
+        "description": "以寫實膠卷街拍視角，捕捉看似平凡日常卻極度荒謬幽默的反差場景。",
+        "tags": [
+          "街頭攝影",
+          "超現實",
+          "幽默抓拍",
+          "荒謬日常",
+          "膠卷質感"
+        ],
+        "prompt": "A candid street photograph taken on 35mm film of [荒謬情境，例如：an elderly lady in a full retro Apollo astronaut suit calmly bargaining for fresh vegetables at a bustling traditional street market], natural candid lighting, gritty film grain, authentic street photography style in the vein of Martin Parr, vivid colors, raw and unposed moment, high realism --ar 4:3 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n適合生成令人會心一笑的超現實生活抓拍照。"
+      }
+    }
+  },
+  {
+    "id": "comedy-wildlife-moment",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Comedy Wildlife Award Winner Shot",
+        "description": "Capture hilarious, perfectly timed animal mishaps and dramatic facial expressions.",
+        "tags": [
+          "wildlife",
+          "comedy",
+          "funny animals",
+          "nature",
+          "photography",
+          "telephoto"
+        ],
+        "prompt": "An award-winning Comedy Wildlife Photography photograph of [animal & action, e.g. a ground squirrel looking utterly shocked and clutching its cheeks like The Scream painting, having dropped a giant walnut], dramatic wide eyes, comical facial expression, crisp telephoto focus, natural blurred woodland background, golden hour lighting, National Geographic quality, perfectly timed action shot --ar 4:3 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "搞笑野生動物攝影獎爆笑抓拍",
+        "description": "神抓拍野生動物浮誇人性化表情或滑稽出糗瞬間，畫面生動充滿戲劇張力。",
+        "tags": [
+          "野生動物攝影",
+          "搞笑動物",
+          "神抓拍",
+          "表情包",
+          "大自然"
+        ],
+        "prompt": "An award-winning Comedy Wildlife Photography photograph of [動物與爆笑動作，例如：a ground squirrel looking utterly shocked and clutching its cheeks like The Scream painting, having dropped a giant walnut], dramatic wide eyes, comical facial expression, crisp telephoto focus, natural blurred woodland background, golden hour lighting, National Geographic quality, perfectly timed action shot --ar 4:3 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n常見題材：跳街舞的蜥蜴、醉步企鵝、被鏡頭嚇到的海獺。"
+      }
+    }
+  },
+  {
+    "id": "retro-16bit-pixel-stickers",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "16-Bit Pixel Art Gaming Sticker Set",
+        "description": "Nostalgic SNES/GBA era pixel art character emotes with white sticker borders.",
+        "tags": [
+          "pixel art",
+          "gaming",
+          "stickers",
+          "retro",
+          "16-bit",
+          "arcade"
+        ],
+        "prompt": "Sticker pack of 16-bit pixel art emotes and game icons featuring [theme, e.g. a cozy wizard capybara doing various magical actions: brewing glowing potion, casting rainbow spell, sleeping on a giant spellbook, leveling up fanfare], clean white sticker outlines, vibrant retro video game palette, crisp pixel alignment, isolated solid background, arcade aesthetics --ar 1:1 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "復古 16-Bit 像素遊戲趣味貼圖",
+        "description": "經典懷舊紅白機/超任風格的像素表情包，帶有白邊貼紙質感與遊戲動態感。",
+        "tags": [
+          "像素風",
+          "Pixel Art",
+          "遊戲貼圖",
+          "復古電玩",
+          "點陣圖"
+        ],
+        "prompt": "Sticker pack of 16-bit pixel art emotes and game icons featuring [主題，例如：a cozy wizard capybara doing various magical actions: brewing glowing potion, casting rainbow spell, sleeping on a giant spellbook, leveling up fanfare], clean white sticker outlines, vibrant retro video game palette, crisp pixel alignment, isolated solid background, arcade aesthetics --ar 1:1 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n滿滿的電玩復古懷舊感，非常適合做社群像素頭貼與貼紙。"
+      }
+    }
+  },
+  {
+    "id": "isometric-tiny-fantasy-room",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Isometric 3D Micro-World Diorama",
+        "description": "Charming 3D cutaway diorama of an intricate, whimsical miniature themed room.",
+        "tags": [
+          "isometric",
+          "3d",
+          "diorama",
+          "miniature",
+          "room",
+          "cute"
+        ],
+        "prompt": "An isometric 3D cutaway miniature diorama of [themed room, e.g. a cozy high-tech command center run entirely by fluffy white kittens, with tiny cat beds, holographic fish radars, and mechanical scratching posts], cute voxel-meets-clay style, intricate micro details, soft volumetric lighting, floating platform in pastel space, clean background, 3D render, Blender Cycles --ar 1:1 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "微縮 3D 等距透視奇幻小房間",
+        "description": "等距 45 度剖面視角（Isometric）微觀奇幻房間模型，細節精巧如置身玻璃盲盒。",
+        "tags": [
+          "等距視角",
+          "Isometric",
+          "3D模型",
+          "微觀場景",
+          "小房間",
+          "療癒"
+        ],
+        "prompt": "An isometric 3D cutaway miniature diorama of [主題小房間，例如：a cozy high-tech command center run entirely by fluffy white kittens, with tiny cat beds, holographic fish radars, and mechanical scratching posts], cute voxel-meets-clay style, intricate micro details, soft volumetric lighting, floating platform in pastel space, clean background, 3D render, Blender Cycles --ar 1:1 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n可自訂房間主題：倉鼠深夜拉麵屋、魔法森林樹洞書房、水豚溫泉小木屋。"
+      }
+    }
+  },
+  {
+    "id": "giant-pet-kaiju-city",
+    "category": "image",
+    "locales": {
+      "en-US": {
+        "title": "Giant Pet Monster Urban Invasion",
+        "description": "Cinematic, playful aerial shot of a colossal pet peacefully taking over a modern city.",
+        "tags": [
+          "giant animal",
+          "kaiju",
+          "cinematic",
+          "drone shot",
+          "funny",
+          "cat"
+        ],
+        "prompt": "A cinematic helicopter aerial photo of a [colossal pet, e.g. a gigantic fluffy ginger cat the size of a skyscraper], lazily napping across multiple downtown city skyscrapers on a sunny afternoon, tiny cars on bridges below, realistic atmospheric haze, hyper-detailed fur physics, epic scale, shot on IMAX 70mm, blockbuster movie cinematography --ar 16:9 --v 6.1"
+      },
+      "zh-TW": {
+        "title": "巨型萌寵攻佔城市電影大片",
+        "description": "將自家毛小孩化身為摩天大樓般巨大的怪獸，慵懶趴在城市屋頂曬太陽的震撼奇幻大片。",
+        "tags": [
+          "巨型寵物",
+          "電影感",
+          "怪獸電影",
+          "貓咪怪獸",
+          "航拍攝影",
+          "震撼"
+        ],
+        "prompt": "A cinematic helicopter aerial photo of a [巨型寵物，例如：a gigantic fluffy ginger cat the size of a skyscraper], lazily napping across multiple downtown city skyscrapers on a sunny afternoon, tiny cars on bridges below, realistic atmospheric haze, hyper-detailed fur physics, epic scale, shot on IMAX 70mm, blockbuster movie cinematography --ar 16:9 --v 6.1\n\n💡 適用工具：Midjourney / ChatGPT (DALL·E 3) / Flux\n拍出毛小孩統治地球、把摩天大樓當逗貓棒的震撼趣味電影海報！"
+      }
+    }
+  },
+  {
     "id": "professional-email-writer",
     "category": "writing",
     "locales": {
