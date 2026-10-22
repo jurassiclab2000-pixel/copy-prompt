@@ -19,6 +19,7 @@
   // Category Emoji Mapping
   const categoryEmojis = {
     all: '✨',
+    image: '📸',
     writing: '✍️',
     productivity: '💼',
     coding: '💻',
@@ -212,6 +213,7 @@
 
     const categories = [
       { id: 'all', labelKey: 'filter.all' },
+      { id: 'image', labelKey: 'cat.image' },
       { id: 'writing', labelKey: 'cat.writing' },
       { id: 'productivity', labelKey: 'cat.productivity' },
       { id: 'coding', labelKey: 'cat.coding' },

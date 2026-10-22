@@ -9,7 +9,8 @@
 
 - ⚡ **1-Click Copy (一鍵複製)**：點擊即可複製完整 Prompt，附帶流暢按鈕反饋與 Toast 提示。
 - 🔍 **Real-time Search (即時搜尋)**：輸入關鍵字即時篩選標題、描述、標籤及內容。
-- 🏷️ **8 Curated Categories (8 大實用分類)**：
+- 🏷️ **9 Curated Categories (9 大實用分類)**：
+  - 📸 Fun Photos & Stickers (趣味生圖與貼圖 - 10 個)
   - ✍️ Writing & Communication (寫作與溝通 - 8 個)
   - 💼 Productivity (效率提升 - 7 個)
   - 💻 Coding & Development (程式開發 - 8 個)
@@ -34,7 +35,7 @@ copy-prompt/
 ├── styles.css           # 科技風深色主題樣式與響應式排版
 ├── app.js               # 搜尋、分類、多語言、收藏、複製等互動邏輯
 ├── data/
-│   └── prompts.json     # 集中管理 50 個實用 Prompt（支援雙語）
+│   └── prompts.json     # 集中管理 60 個實用 Prompt（支援雙語）
 ├── locales/
 │   ├── en-US.json       # 英文介面翻譯字典
 │   └── zh-TW.json       # 繁體中文介面翻譯字典
