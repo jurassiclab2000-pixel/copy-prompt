@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "professional-email-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Professional Email Writer",
+        "description": "Draft polished, clear, and professional business emails for any scenario.",
+        "tags": [
+          "email",
+          "business",
+          "communication",
+          "writing"
+        ],
+        "prompt": "Act as an executive communication specialist. Help me write a professional, concise, and courteous business email based on the details below.\n\nRecipient / Audience: [e.g. Client, Manager, Partner]\nPurpose of Email: [e.g. Project status update, contract negotiation, requesting meeting reschedule]\nKey Points to Include:\n1. [Point 1]\n2. [Point 2]\n3. [Point 3]\nDesired Tone: [e.g. Professional yet warm / Formal and firm / Direct and urgent]\nCall to Action / Next Step: [e.g. Reply by Friday, approve budget]\n\nPlease output:\n1. Subject line options (3 choices: direct, engaging, formal)\n2. Complete email body ready to send\n3. Optional follow-up note if no response received in 3 days."
+      },
+      "zh-TW": {
+        "title": "專業商務郵件撰寫助手",
+        "description": "為任何職場情境撰寫得體、清楚且具說服力的商務電子郵件。",
+        "tags": [
+          "電子郵件",
+          "商務",
+          "職場溝通",
+          "寫作"
+        ],
+        "prompt": "請扮演一位高階商務溝通顧問。請根據以下情境與需求，幫我撰寫一封專業、簡潔且有禮貌的商務電子郵件：\n\n收件對象 / 角色：[例如：客戶窗口、直屬主管、合作夥伴]\n郵件主旨與目的：[例如：專案進度匯報、報價與合約協商、會議改期通知]\n關鍵內容點：\n1. [重點一]\n2. [重點二]\n3. [重點三]\n期望語氣：[例如：專業且具親和力 / 正式堅定 / 簡潔明確]\n行動呼籲（Call to Action）：[例如：請於週五前回覆確認、請核准預算]\n\n輸出要求：\n1. 3 組不同風格的主旨建議（直接型、商務型、溫和型）\n2. 完整且可直接寄出的郵件內文\n3. 若對方 3 天未回覆的簡短提醒信（Follow-up）範本"
+      }
+    }
+  },
+  {
+    "id": "english-writing-coach",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "English Writing Coach",
+        "description": "Improve your draft with grammar fixes, natural phrasing, and structural advice.",
+        "tags": [
+          "english",
+          "editing",
+          "proofreading",
+          "grammar"
+        ],
+        "prompt": "Act as an experienced English writing coach and native editor. Review the text I provide below.\n\nPlease deliver feedback in this format:\n1. **Key Issues Identified**: Grammar, awkward phrasing, redundancy, or tone inconsistencies.\n2. **Side-by-Side Corrections**: Highlight original phrases and explain why the revisions sound more natural.\n3. **Polished Final Version**: A clean, natural, and idiomatic version that preserves my original intent.\n4. **Vocabulary & Phrasing Upgrades**: 3-5 alternative high-impact words or idioms suitable for this context.\n\nHere is my draft:\n\"\"\"\n[Insert your draft text here]\n\"\"\""
+      },
+      "zh-TW": {
+        "title": "英文寫作潤飾教練",
+        "description": "修正文法錯誤、調整道地母語表達，並優化文章結構與語氣。",
+        "tags": [
+          "英文寫作",
+          "文法校對",
+          "潤飾",
+          "母語表達"
+        ],
+        "prompt": "請扮演一位資深的英文寫作教練與母語編輯。請審閱並修改我提供的以下英文草稿：\n\n請依照以下架構提供建議：\n1. **主要問題診斷**：指出文法錯誤、中式英文（Chinglish）、贅字或語氣不協調之處。\n2. **修改對照與解析**：標記原文與修改後的差異，並說明修改原因。\n3. **終極潤飾版本**：提供一份流暢、地道且保留我原意的最終成品。\n4. **進階詞彙與句型推薦**：提供 3-5 個適合本情境的高階詞彙或實用句型。\n\n待修改的英文草稿：\n\"\"\"\n[請在此貼上你的英文草稿]\n\"\"\""
+      }
+    }
+  },
+  {
+    "id": "article-outline-generator",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Article Outline Generator",
+        "description": "Create a comprehensive, logically structured outline for blogs, essays, or reports.",
+        "tags": [
+          "blog",
+          "content",
+          "outline",
+          "article"
+        ],
+        "prompt": "Act as a senior content strategist and editor. Create an in-depth, logical, and engaging article outline based on the following input:\n\nTopic: [e.g. The impact of Generative AI on remote work]\nTarget Audience: [e.g. Tech managers, freelancers, general public]\nArticle Type: [e.g. How-to guide / Thought leadership / Case study / Opinion piece]\nPrimary Goal: [e.g. Educate readers, drive newsletter signups, explain trends]\nTarget Word Count: [e.g. 1500 words]\n\nPlease provide:\n1. 3 Working Title suggestions with strong hooks\n2. Core thesis statement (1-2 sentences)\n3. Detailed H2 and H3 section outline with bulleted key points to cover under each\n4. Suggested hook for Introduction and takeaway for Conclusion\n5. Recommended sources, data types, or real-world examples to strengthen the argument."
+      },
+      "zh-TW": {
+        "title": "深度文章大綱生成器",
+        "description": "為部落格文章、專題報導或分析報告建立邏輯嚴謹、引人入勝的架構。",
+        "tags": [
+          "文章大綱",
+          "內容創作",
+          "部落格",
+          "寫作架構"
+        ],
+        "prompt": "請扮演一位資深內容總監與編輯，根據以下資訊為我打造一份結構嚴謹、具吸引力的完整文章大綱：\n\n主題：[例如：生成式 AI 對遠距工作型態的衝擊]\n目標讀者：[例如：企業經理人、自由工作者、科技愛好者]\n文章類型：[例如：教學指南、趨勢分析、深度觀點、案例研究]\n核心目標：[例如：釐清迷思、提供實務建議、引發社群討論]\n預計字數：[例如：2000 字]\n\n請提供：\n1. 3 個吸睛的標題建議（不同吸睛角度）\n2. 核心論點陳述（1-2 句話）\n3. 包含 H2、H3 的章節大綱，並在每個小節下條列 2-3 個核心重點\n4. 引人入勝的前言開場（Hook）設計與具啟發性的結論方向\n5. 建議引用的數據維度或案例類型，以增強說服力。"
+      }
+    }
+  },
+  {
+    "id": "executive-summary-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Executive Summary Writer",
+        "description": "Distill complex reports, proposals, or research into concise executive summaries.",
+        "tags": [
+          "summary",
+          "executive",
+          "business",
+          "report"
+        ],
+        "prompt": "Act as a management consultant. Synthesize the text below into an Executive Summary tailored for senior leaders and busy executives.\n\nRequirements:\n1. **One-Sentence Bottom Line**: The absolute core finding or decision required.\n2. **Context & Problem Statement**: What was analyzed and why it matters (max 3 bullets).\n3. **Key Findings / Insights**: The most crucial data and takeaways (max 4 bullets).\n4. **Actionable Recommendations**: Next steps with priority and expected impact.\n5. **Key Risks & Mitigations**: If applicable.\n\nKeep the language punchy, high-signal, and devoid of fluff.\n\nSource Material:\n\"\"\"\n[Paste report, proposal, or article here]\n\"\"\""
+      },
+      "zh-TW": {
+        "title": "高階主管摘要精煉器",
+        "description": "將冗長的報告、提案或研究資料濃縮為高階主管能一目了然的決策摘要。",
+        "tags": [
+          "摘要",
+          "主管匯報",
+          "商業分析",
+          "簡報"
+        ],
+        "prompt": "請扮演一位管理顧問專家，將以下長篇內容濃縮為專門給高階主管（C-level / 決策者）閱讀的「執行摘要（Executive Summary）」：\n\n結構要求：\n1. **一句話結論（Bottom Line Up Front）**：最核心的發現、結論或所需決策。\n2. **背景與痛點簡述**：分析緣起與關鍵問題（最多 3 點）。\n3. **關鍵洞察與數據**：最重要的發現與支持佐證（最多 4 點）。\n4. **行動建議與優先順序**：具體下一步行動、負責人角色與預期效益。\n5. **潛在風險與應對策略**：最值得留意的關鍵風險。\n\n原則：文字極度精煉、數據導向、去除無效修飾詞。\n\n原始資料：\n\"\"\"\n[請在此貼上完整報告或提案內容]\n\"\"\""
+      }
+    }
+  },
+  {
+    "id": "apology-email-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Customer Apology Email",
+        "description": "Handle mistakes gracefully with sincere, professional, and reassuring communication.",
+        "tags": [
+          "customer service",
+          "apology",
+          "communication",
+          "support"
+        ],
+        "prompt": "Act as a customer relations and crisis communication director. Write a professional apology email to an affected customer/client.\n\nSituation Details:\n- What went wrong: [e.g. System outage, shipping delay, billing error, poor service]\n- Impact on the customer: [e.g. Lost access for 4 hours, missed deadline]\n- Root cause (brief & transparent): [e.g. Database migration glitch, supplier delay]\n- Corrective action taken: [e.g. Bug patched, servers scaled, refund processed]\n- Compensation or gesture of goodwill: [e.g. 1 month free credit, 20% discount on next order]\n\nGuidelines:\n- Take full ownership without sounding defensive.\n- Explain clearly what happened and why it won't happen again.\n- Focus on how the problem is solved and how the customer is protected."
+      },
+      "zh-TW": {
+        "title": "客戶道歉與客訴應對信函",
+        "description": "以誠懇、專業且具擔當的態度應對失誤，化解危機並重建客戶信任。",
+        "tags": [
+          "客戶服務",
+          "道歉信",
+          "危機處理",
+          "公關溝通"
+        ],
+        "prompt": "請扮演一位客戶關係與危機公關主管，協助撰寫一封誠懇、專業且能挽回客戶信心的道歉與說明信：\n\n事件資訊：\n- 發生的失誤：[例如：系統服務中斷、出貨延誤、扣款錯誤、服務體驗不佳]\n- 對客戶造成的影響：[例如：無法登入 4 小時、錯過專案交付時間]\n- 根本原因（簡明且誠實）：[例如：資料庫更新異常、物流夥伴天候延遲]\n- 目前已採取的補救措施：[例如：已修復系統、補寄急件、退還多收費用]\n- 補償方案或誠意表達：[例如：提供一個月免費使用權、下次消費 8 折折抵]\n\n寫作準則：\n- 勇於承擔責任，絕不推諉卸責或找藉口。\n- 具體說明防範再次發生的改善措施。\n- 語氣真誠溫和，站在客戶立場著想。"
+      }
+    }
+  },
+  {
+    "id": "newsletter-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Engaging Newsletter Creator",
+        "description": "Write high-open-rate newsletters with snappy intros, valuable insights, and clear CTAs.",
+        "tags": [
+          "newsletter",
+          "email marketing",
+          "copywriting",
+          "audience"
+        ],
+        "prompt": "Act as an email marketing strategist behind 6-figure newsletters. Write an engaging newsletter edition based on the following:\n\nNiche / Topic: [e.g. Solo entrepreneurship, AI productivity tools, personal finance]\nMain Story / Insight: [e.g. Why working fewer hours increased my output, 3 AI tools tested this week]\nTarget Reader: [e.g. Freelancers, software engineers, content creators]\nGoal: [e.g. Spark discussion, click link to new blog post, reply with thoughts]\n\nInclude:\n1. 3 Catchy Subject Lines (Curiosity-driven, benefit-driven, and story-driven)\n2. Compelling Hook (First 2 sentences that stop readers from scrolling past)\n3. Core Narrative (Scannable paragraphs, bullet points, personal voice)\n4. Key Actionable Takeaway (What can the reader apply in 5 minutes?)\n5. Single clear Call-To-Action (CTA)."
+      },
+      "zh-TW": {
+        "title": "高開啟率電子報（Newsletter）撰寫器",
+        "description": "打造高開信率、高互動的電子報內容，包含吸睛開頭與實用洞見。",
+        "tags": [
+          "電子報",
+          "郵件行銷",
+          "文案",
+          "個人品牌"
+        ],
+        "prompt": "請扮演一位經營數十萬訂閱者的知名電子報主編，根據以下條件幫我撰寫一期引人入勝的電子報：\n\n領域 / 主題：[例如：一人創業、AI 生產力工具評測、個人理財思維]\n本期核心故事 / 洞見：[例如：工時減少反而產出倍增的關鍵心法、本週實測的 3 款實用工具]\n目標讀者群：[例如：遠距工作者、軟體工程師、自媒體創作者]\n主要目標：[例如：引導點擊深度文章、徵求讀者回覆互動、促銷早鳥課程]\n\n請輸出：\n1. 3 組高點擊率的主旨（包含好奇引導、利益訴求、故事型）\n2. 吸睛的破題開場（前兩句能抓住眼球，避免公式化問候）\n3. 節奏明快的主體內容（善用短段落、列點排版，具個人語調）\n4. 一個讀者 5 分鐘內就能立刻應用的實用建議（Actionable Takeaway）\n5. 清楚明確的單一行動呼籲（CTA）。"
+      }
+    }
+  },
+  {
+    "id": "cover-letter-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Tailored Cover Letter Writer",
+        "description": "Craft persuasive, story-driven cover letters matched to the exact job description.",
+        "tags": [
+          "career",
+          "cover letter",
+          "job search",
+          "hiring"
+        ],
+        "prompt": "Act as an executive career coach and hiring manager. Write a tailored, persuasive cover letter that stands out from generic applications.\n\nTarget Role: [e.g. Senior Product Marketing Manager]\nTarget Company: [e.g. Stripe, Acme SaaS]\nKey Requirements from Job Description:\n- [Requirement 1]\n- [Requirement 2]\n- [Requirement 3]\nMy Relevant Background & Top Achievements:\n- [Achievement 1 with metrics if possible]\n- [Achievement 2]\n- [Why I am specifically excited about this company]\n\nFormat:\n- 3 to 4 concise paragraphs (under 350 words)\n- Strong hook connecting my past wins to their immediate problems\n- Confident, genuine tone without clichés like \"I am writing to apply...\"."
+      },
+      "zh-TW": {
+        "title": "量身打造求職求職信（Cover Letter）",
+        "description": "依據目標職缺精準包裝個人亮點與量化成果，脫離套版感讓面試官眼睛一亮。",
+        "tags": [
+          "求職信",
+          "轉職",
+          "履歷面試",
+          "職涯"
+        ],
+        "prompt": "請扮演一位資深外商招募主管與職涯顧問。請為我撰寫一封精準對齊職缺、具說服力且不落俗套的求職信（Cover Letter）：\n\n應徵職位：[例如：資深產品行銷經理]\n目標企業：[例如：知名跨國科技公司 / 新創品牌]\n職缺核心要求（JD 重點）：\n- [要求一]\n- [要求二]\n- [要求三]\n我的相關經歷與量化成就：\n- [成就一，包含數據或指標更好]\n- [成就二]\n- [為什麼這家公司的使命或產品特別吸引我]\n\n要求：\n- 篇幅控制在 3-4 個精簡段落（約 300-400 字）\n- 摒棄「我寫信是為了應徵...」的陳腔濫調，第一段直接展現個人價值與對該公司的理解\n- 展現自信、專業、務實且具合作精神的語氣。"
+      }
+    }
+  },
+  {
+    "id": "feedback-response-writer",
+    "category": "writing",
+    "locales": {
+      "en-US": {
+        "title": "Constructive Feedback Responder",
+        "description": "Respond professionally to critical feedback, performance reviews, or client critique.",
+        "tags": [
+          "feedback",
+          "professionalism",
+          "workplace",
+          "communication"
+        ],
+        "prompt": "Act as an expert in workplace emotional intelligence. Help me write a professional, composed, and constructive response to critical feedback received from my [manager / client / peer].\n\nThe Feedback Received:\n\"\"\"\n[Insert critical feedback here]\n\"\"\"\n\nMy Perspective / Context: [e.g. The deadline was moved up without notice, but I agree the test coverage was low]\nMy Goal: [e.g. Acknowledge valid points, clarify constraints calmly, propose concrete next steps]\n\nGenerate a response that:\n1. Validates their perspective and shows non-defensive accountability.\n2. Respectfully provides necessary factual context without making excuses.\n3. Proposes concrete action items and a check-in timeline to demonstrate improvement."
+      },
+      "zh-TW": {
+        "title": "職場批評與反饋應對指南",
+        "description": "以高情商且具建設性的方式回應主管、客戶或同事的負面評價與考核建議。",
+        "tags": [
+          "職場應對",
+          "高情商溝通",
+          "考核反饋",
+          "溝通藝術"
+        ],
+        "prompt": "請扮演一位高情商職場溝通專家。請幫我撰寫一段專業、冷靜且具建設性的回覆，回應來自 [主管 / 客戶 / 同事] 的批評或建議：\n\n收到的反饋內容：\n\"\"\"\n[在此貼上對方的批評或反饋意見]\n\"\"\"\n\n我的實際情況與背景：[例如：當時時程被臨時提前，但我也承認最後的驗收報告確實不夠詳盡]\n我的回覆目標：[例如：展現誠懇負責態度、平靜陳述客觀限制、提出未來的明確改善行動]\n\n回覆原則：\n1. 展現成熟與擔當，正面肯定對方的出發點與合理之處。\n2. 不卑不亢地補充關鍵客觀事實，避免聽起來像是找藉口或情緒化防衛。\n3. 提出具體的改進方案與後續追蹤時間點，將負面事件轉化為展現實力的機會。"
+      }
+    }
+  },
+  {
+    "id": "meeting-agenda-builder",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "High-Efficiency Meeting Agenda Builder",
+        "description": "Design structured, time-boxed meeting agendas with clear owners and outcomes.",
+        "tags": [
+          "meeting",
+          "agenda",
+          "time management",
+          "productivity"
+        ],
+        "prompt": "Act as an operations leader renowned for hyper-efficient meetings. Create a structured, time-boxed agenda for an upcoming meeting based on:\n\nMeeting Topic: [e.g. Q3 Roadmap Alignment / Sprint Retrospective / New Vendor Selection]\nDuration: [e.g. 45 minutes]\nAttendees: [e.g. Product Lead, Tech Lead, Design Lead, Marketing Manager]\nDesired Final Output: [e.g. Signed-off sprint backlog, decision on vendor A vs B]\n\nProvide:\n1. **Pre-read / Homework Checklist**: What attendees must review before joining to avoid wasting time presenting slides.\n2. **Time-Boxed Agenda Table**:\n   - Minute breakdown (e.g. 0-5m, 5-20m)\n   - Topic / Discussion Item\n   - Discussion Leader\n   - Specific decision or outcome required from this segment\n3. **Meeting Ground Rules**: 2 concise rules to keep participants on track."
+      },
+      "zh-TW": {
+        "title": "高效率會議議程架構師",
+        "description": "設計精準計時、目標明確、產出清晰的會議流程，杜絕無效冗長會議。",
+        "tags": [
+          "會議效率",
+          "議程規劃",
+          "時間管理",
+          "專案管理"
+        ],
+        "prompt": "請扮演一位以極致工作效率著稱的營運長。請為即將召開的會議設計一份結構嚴謹、精準控時且產出明確的議程表：\n\n會議主題：[例如：第三季產品路線圖對齊 / 專案復盤 / 供應商評選決策]\n會議時間：[例如：45 分鐘]\n與會角色：[例如：產品總監、技術負責人、UI/UX 設計師、行銷經理]\n會議核心產出：[例如：確認供應商最終人選並拍板簽約條件]\n\n請輸出：\n1. **行前準備清單（Pre-read）**：與會者會前必須先閱讀的文件或數據，禁止在會上花大把時間念簡報。\n2. **精準控時議程表**：\n   - 時間區間（例如：00-05 分鐘、05-20 分鐘）\n   - 討論項目與核心問題\n   - 負責引導人\n   - 該環節必須產出的具體共識或決策\n3. **防跑題守則**：2 條適用於本次會議的極簡紀律守則。"
+      }
+    }
+  },
+  {
+    "id": "action-items-extractor",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "Action Items Extractor",
+        "description": "Turn messy meeting transcripts or raw notes into clean, actionable task lists.",
+        "tags": [
+          "action items",
+          "notes",
+          "tasks",
+          "organization"
+        ],
+        "prompt": "Act as a senior technical project manager. Analyze the following messy meeting notes or transcript and transform them into a pristine Action Items Summary.\n\nRules:\n1. Every action item must have:\n   - **Task**: Clear verb-first description of the deliverable\n   - **Owner**: Person responsible (or \"Unassigned - needs owner\")\n   - **Deadline**: Inferred or explicit due date\n   - **Priority**: High / Medium / Low\n2. Separate into:\n   - Immediate Next Steps (Next 48 hours)\n   - Medium-term Tasks\n   - Open Questions / Blockers requiring clarification\n3. Do not include idle chatter or non-actionable remarks.\n\nRaw Notes:\n\"\"\"\n[Paste notes or meeting transcript here]\n\"\"\""
+      },
+      "zh-TW": {
+        "title": "會議記錄行動清單提煉器",
+        "description": "將雜亂無章的會議速記或逐字稿，秒速整理成權責分明、截止明確的執行清單。",
+        "tags": [
+          "會議記錄",
+          "待辦清單",
+          "專案推進",
+          "生產力"
+        ],
+        "prompt": "請扮演一位資深技術專案經理（PMP）。請分析以下零散雜亂的會議記錄或對話紀錄，將其轉化為一份乾淨、無死角的行動執行清單（Action Items）：\n\n規則與要求：\n1. 每項任務必須包含：\n   - **任務描述**：以動詞開頭、定義清晰的交付物（避免模糊描述）\n   - **負責人（Owner）**：明確指派人員（若會中未定，請標註「待確認」）\n   - **交付期限（Deadline）**：推導或明示的截止日期\n   - **優先級**：高 / 中 / 低\n2. 分類整理為：\n   - 48 小時內緊急行動\n   - 中期交付事項\n   - 待釐清問題與阻礙（Blockers）\n3. 嚴格過濾掉閒聊與非行動性質的雜訊。\n\n會議原始記錄：\n\"\"\"\n[請在此貼上會議筆記或逐字稿]\n\"\"\""
+      }
+    }
+  },
+  {
+    "id": "weekly-plan-generator",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "Strategic Weekly Planner",
+        "description": "Organize your week around high-leverage goals using the 80/20 rule and time-blocking.",
+        "tags": [
+          "planning",
+          "weekly review",
+          "focus",
+          "goals"
+        ],
+        "prompt": "Act as an executive performance coach. Help me construct a high-impact, realistic weekly plan applying the 80/20 Pareto principle and time-blocking.\n\nMy Goals / Big Deliverables This Week:\n- [Major Goal 1]\n- [Major Goal 2]\n- [Major Goal 3]\nFixed Commitments / Meetings: [e.g. Mon 10am All-hands, Wed 2pm Client review]\nPersonal Constraints / Energy Patterns: [e.g. Most focused in mornings, afternoons good for admin]\n\nGenerate:\n1. **The 3 \"Must-Win\" Outcomes**: The non-negotiables that define a successful week.\n2. **Day-by-Day Time-Blocked Schedule** (Mon-Fri) dividing days into Deep Work, Shallow Work, and Buffer blocks.\n3. **Shutdown Ritual**: A 15-minute Friday review checklist to close out the week cleanly."
+      },
+      "zh-TW": {
+        "title": "高效週工作計劃規劃師",
+        "description": "運用 80/20 法則與時間塊（Time-blocking）理念，排定高產出的一週工作節奏。",
+        "tags": [
+          "週計劃",
+          "時間管理",
+          "深度工作",
+          "目標管理"
+        ],
+        "prompt": "請扮演一位高階主管的專屬效能教練。請運用 80/20 帕雷托法則與時間塊（Time-blocking）概念，幫我設計一份兼具企圖心與可行性的一週工作計畫：\n\n本週核心目標與關鍵交付：\n- [關鍵目標一]\n- [關鍵目標二]\n- [關鍵目標三]\n固定行程與會議：[例如：週一早上 10:00 全體週會、週三下午 14:00 客戶報告]\n個人精力狀態與習慣：[例如：上午頭腦最清醒適合深度工作，下午適合回信與雜務]\n\n請輸出：\n1. **本週 3 大非贏不可的戰果（Must-Win Battles）**：決定本週是否算成功的核心關鍵指標。\n2. **週一至週五的時間塊日程表**：清晰劃分「深度思考時間（Deep Work）」、「事務性溝通（Shallow Work）」與「彈性緩衝時間（Buffer）」。\n3. **週五復盤結尾儀式**：15 分鐘的收尾確認清單，讓週末能安心休息。"
+      }
+    }
+  },
+  {
+    "id": "task-prioritization-helper",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "Eisenhower Task Prioritizer",
+        "description": "Prioritize an overwhelming to-do list using the Eisenhower Matrix and leverage score.",
+        "tags": [
+          "eisenhower",
+          "prioritization",
+          "todo",
+          "decision"
+        ],
+        "prompt": "Act as a productivity strategist. I am feeling overwhelmed by my to-do list. Categorize and prioritize the following tasks using the Eisenhower Matrix (Urgent vs Important) and assign each a clear strategy.\n\nMy Raw Task List:\n\"\"\"\n[Paste list of everything on your mind / plate]\n\"\"\"\n\nFor each task, categorize into:\n1. **Do First (Urgent & Important)**: Critical crises, hard deadlines.\n2. **Schedule (Not Urgent & Important)**: High-leverage strategic work, skill-building, preventative maintenance.\n3. **Delegate / Automate (Urgent & Not Important)**: Interruptions, manual busywork.\n4. **Eliminate (Not Urgent & Not Important)**: Time-wasters and low-value tasks.\n\nConclude with: \"Your Top 3 Actions for Today\"."
+      },
+      "zh-TW": {
+        "title": "艾森豪矩陣任務優先級排序",
+        "description": "將排山倒海的待辦清單，依重要與緊急程度徹底拆解，找出最有槓桿效應的工作。",
+        "tags": [
+          "四象限法則",
+          "優先級",
+          "待辦整理",
+          "減壓"
+        ],
+        "prompt": "請扮演一位資深效能顧問。面對大量紛亂的待辦事項，請運用「艾森豪矩陣（重要 vs 緊急四象限）」為我重整任務優先級：\n\n我的原始待辦清單：\n\"\"\"\n[請在此貼上目前手頭所有待辦事項、卡在腦中的任務]\n\"\"\"\n\n請將所有任務分類並標註策略：\n1. **第一象限：立即執行（緊急且重要）**：重大危機、具備強硬截止線的關鍵任務。\n2. **第二象限：排程專注（重要但不緊急）**：具高槓桿效益的長期投資、策略規劃、技能學習。\n3. **第三象限：委派或自動化（緊急但不重要）**：例行干擾、繁瑣行政雜務、可用工具或交由他人處理的事務。\n4. **第四象限：斷然捨棄（不緊急且不重要）**：低價值消耗、拖累進度的無效工作。\n\n最後總結：直接列出「今天必須先完成的 3 件事」。"
+      }
+    }
+  },
+  {
+    "id": "email-response-accelerator",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "Rapid Email Responder",
+        "description": "Generate 3 quick, context-appropriate reply variations to clear your inbox fast.",
+        "tags": [
+          "email",
+          "inbox zero",
+          "speed",
+          "productivity"
+        ],
+        "prompt": "Act as a high-speed executive assistant. I need to reply to the email below quickly.\n\nThe Email I Received:\n\"\"\"\n[Paste incoming email here]\n\"\"\"\n\nMy General Stance / Decision: [e.g. Yes but need more time / No politely / Can meet next Tuesday only]\n\nProvide 3 ready-to-copy reply options:\n1. **Option 1: Ultra-Concise** (1-3 sentences, direct, polite, ideal for mobile)\n2. **Option 2: Warm & Collaborative** (Friendly tone, provides brief context)\n3. **Option 3: Firm & Formal** (Sets clear boundaries or establishes structured terms)"
+      },
+      "zh-TW": {
+        "title": "極速郵件回覆加速器",
+        "description": "秒速產生三種不同語調的合適回覆，助你快速達成收件匣歸零（Inbox Zero）。",
+        "tags": [
+          "收件匣清空",
+          "快速回信",
+          "郵件範本",
+          "工作效率"
+        ],
+        "prompt": "請扮演一位頂級高階主管特助。我需要快速回覆以下收到的信件：\n\n收到的信件內容：\n\"\"\"\n[請在此貼上對方來信]\n\"\"\"\n\n我的核心立場 / 決策：[例如：同意合作但時間要延後一週 / 委婉拒絕邀約 / 只能約下週二下午半小時]\n\n請為我輸出 3 種可直接複製寄出的回覆版本：\n1. **版本一：極簡精準型**（2-3 句話，適合手機快回，禮貌直截）\n2. **版本二：溫和親切型**（語氣溫暖，補充簡要背景，維持良好關係）\n3. **版本三：正式堅定型**（清楚劃定界線或建立明確框架）"
+      }
+    }
+  },
+  {
+    "id": "focus-session-planner",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "90-Minute Deep Work Focus Planner",
+        "description": "Design an distraction-free 90-minute block to tackle complex cognitive tasks.",
+        "tags": [
+          "deep work",
+          "focus",
+          "pomodoro",
+          "concentration"
+        ],
+        "prompt": "Act as a cognitive performance coach. I am preparing for a 90-minute Deep Work session on the following project:\n\nThe Complex Task: [e.g. Designing architecture for authentication service / Writing whitepaper conclusion]\nPotential Distractions: [e.g. Slack notifications, temptation to check metrics]\n\nStructure my 90-minute block with:\n1. **Prep Phase (0-5 mins)**: Immediate physical/digital setup steps to enter flow state.\n2. **Phase 1 - Exploration & Blueprint (5-25 mins)**: Defining the single deliverable.\n3. **Phase 2 - Execution Sprint (25-75 mins)**: Deep uninterrupted momentum.\n4. **Phase 3 - Review & Clean Exit (75-90 mins)**: Verifying output and setting a bookmark for the next session.\n5. **Flow Trigger Checklist**: 3 sensory or mindset cues to re-focus if attention wanders."
+      },
+      "zh-TW": {
+        "title": "90 分鐘深度心流工作計畫",
+        "description": "為高難度腦力任務設計零干擾的 90 分鐘專注衝刺節奏，迅速進入心流狀態。",
+        "tags": [
+          "心流狀態",
+          "深度工作",
+          "專注力",
+          "時間管理"
+        ],
+        "prompt": "請扮演一位認知科學與心流狀態引導專家。我正準備投入一個 90 分鐘的「深度專注時段（Deep Work Session）」來攻克以下挑戰：\n\n本次要完成的具體任務：[例如：設計微服務驗證架構 / 撰寫白皮書核心分析章節]\n容易遇到的干擾：[例如：通訊軟體通知、忍不住想看數據、思緒分心]\n\n請為我規劃結構化 90 分鐘進程：\n1. **進入準備期（0-5 分鐘）**：數位與物理環境的歸零儀式，讓大腦快速切換至專注模式。\n2. **第一階段：目標鎖定與框架拆解（5-25 分鐘）**：明確本次唯一的微交付物。\n3. **第二階段：沉浸衝刺（25-75 分鐘）**：不間斷的高產能執行階段。\n4. **第三階段：檢驗與書籤存檔（75-90 分鐘）**：驗證產出並留下「下次啟動的書籤」，方便無痛銜接。\n5. **分心急救法**：當注意力飄走時，能 10 秒內拉回專注的 2 個具體心智口訣。"
+      }
+    }
+  },
+  {
+    "id": "project-status-update-writer",
+    "category": "productivity",
+    "locales": {
+      "en-US": {
+        "title": "Executive Project Status Update",
+        "description": "Format project progress into clean Green/Yellow/Red status updates for stakeholders.",
+        "tags": [
+          "status report",
+          "project management",
+          "stakeholders",
+          "updates"
+        ],
+        "prompt": "Act as a senior program director. Transform the following project details into an executive-ready status report.\n\nProject Name: [e.g. Mobile App Redesign v2.0]\nOverall Health: [Green / Yellow / Red]\nTarget Launch Date: [Date]\nKey Accomplishments This Period:\n- [Accomplishment 1]\n- [Accomplishment 2]\nCurrent Blockers / Risks:\n- [Risk 1 & what is needed to unblock it]\nNext Period Key Milestones:\n- [Milestone 1]\n\nFormat as:\n1. Executive Snapshot (TL;DR in 2 lines)\n2. Milestone Progress & Health Indicator\n3. Critical Blockers & Asks from Leadership\n4. Upcoming Deliverables."
+      },
+      "zh-TW": {
+        "title": "專案進度與健康度匯報（Status Report）",
+        "description": "將各專案進展標準化為紅綠燈狀態指標，讓利害關係人一眼掌握風險與進度。",
+        "tags": [
+          "專案週報",
+          "進度匯報",
+          "紅綠燈指標",
+          "跨部門協作"
+        ],
+        "prompt": "請扮演一位專案管理總監。請將以下專案資訊整理成一份符合高階管理標準的「專案進度與健康度匯報」：\n\n專案名稱：[例如：品牌會員系統升級 2.0]\n整體健康度：[綠燈 (正常) / 黃燈 (有風險需關注) / 紅燈 (進度落後需介入)]\n預計上線日期：[填寫日期]\n本期主要戰果：\n- [戰果一]\n- [戰果二]\n當前阻礙與風險（Blockers）：\n- [風險一，以及需要何種資源來排解]\n下期關鍵里程碑：\n- [里程碑一]\n\n請依以下格式輸出：\n1. 30 秒摘要（TL;DR：一句話說明現狀與是否按計畫進行）\n2. 里程碑進度與健康度訊號\n3. 關鍵阻礙與需要管理層協調的事項（Asks for Leadership）\n4. 下階段重點交付清單。"
+      }
+    }
+  },
+  {
+    "id": "code-reviewer",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Senior Code Reviewer",
+        "description": "Audit code for security vulnerabilities, performance bugs, and best practices.",
+        "tags": [
+          "code review",
+          "security",
+          "performance",
+          "best practices"
+        ],
+        "prompt": "Act as a Principal Software Engineer. Conduct a rigorous code review of the snippet provided below.\n\nProgramming Language / Framework: [e.g. TypeScript, React, Python, Go]\nContext / Intent: [What this code is intended to accomplish]\n\nAudit the code against these dimensions:\n1. **Bugs & Edge Cases**: Logic errors, off-by-one errors, unhandled null/undefined values.\n2. **Security Vulnerabilities**: Injection, improper sanitization, secrets handling.\n3. **Performance & Scalability**: N+1 queries, memory leaks, algorithmic complexity (Big O).\n4. **Maintainability & Clean Code**: Naming, readability, separation of concerns.\n\nProvide:\n- Summary score (1-10) with key critique\n- Specific line-by-line feedback with before/after code diffs\n- Refactored final snippet.\n\nCode:\n\"\"\"\n[Paste your code here]\n\"\"\""
+      },
+      "zh-TW": {
+        "title": "資深架構師程式碼審查（Code Review）",
+        "description": "從資安漏洞、效能瓶頸、邊界條件與 Clean Code 原則深度檢視程式碼。",
+        "tags": [
+          "Code Review",
+          "程式碼審查",
+          "資安檢驗",
+          "效能優化"
+        ],
+        "prompt": "請扮演一位頂級軟體架構師與首席工程師。請對以下提供的程式碼進行全面且嚴謹的 Code Review：\n\n程式語言 / 框架：[例如：TypeScript, Next.js, Python FastAPI, Go]\n商業目標 / 實作意圖：[簡述這段程式碼要完成什麼功能]\n\n請依據以下四個維度進行審查：\n1. **潛在 Bug 與邊界條件**：邏輯漏洞、空值（null/undefined）未處理、邊界計算問題。\n2. **資安風險**：SQL 注入、XSS、敏感資訊洩漏、權限檢查疏漏。\n3. **效能與擴展性**：時間/空間複雜度（Big O）、不必要的重新渲染、記憶體洩漏風險。\n4. **可讀性與架構規範**：命名精確性、單一職責原則、代碼重複性。\n\n輸出格式：\n- 整體評分與核心評價\n- 具體改善建議（包含問題說明與改善前後對照代碼）\n- 完整優化後的最終重構程式碼。\n\n待審查程式碼：\n\"\"\"\n[請在此貼上程式碼]\n\"\"\""
+      }
+    }
+  },
+  {
+    "id": "bug-debugger",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Bug & Error Debugger",
+        "description": "Identify root causes of confusing error stack traces and provide step-by-step fixes.",
+        "tags": [
+          "debug",
+          "error",
+          "stack trace",
+          "troubleshooting"
+        ],
+        "prompt": "Act as a master debugger. Analyze the error message, code snippet, and context below to pinpoint the exact root cause and provide a permanent fix.\n\nLanguage & Runtime: [e.g. Node.js v20, Python 3.11, Docker, PostgreSQL]\nExpected Behavior: [What should happen]\nActual Behavior: [What is happening instead]\n\nError Message / Stack Trace:\n\"\"\"\n[Paste error message or log trace]\n\"\"\"\n\nRelated Code:\n\"\"\"\n[Paste relevant code]\n\"\"\"\n\nDeliver:\n1. **Root Cause Analysis**: Explain in plain English why this error occurred.\n2. **Immediate Fix**: The minimal change needed to make it work.\n3. **Robust Solution**: The idiomatic, best-practice fix that prevents this bug from resurfacing.\n4. **Testing Hint**: How to write a unit or integration test reproducing this edge case."
+      },
+      "zh-TW": {
+        "title": "Bug 根因排查與除錯助手",
+        "description": "解析崩潰日誌與報錯堆疊（Stack Trace），揪出根本原因並提供穩健修復方案。",
+        "tags": [
+          "Debug",
+          "除錯",
+          "錯誤排除",
+          "報錯日誌"
+        ],
+        "prompt": "請扮演一位經驗豐富的 Debug 大師與除錯專家。請分析以下報錯資訊與程式碼，精準找出問題根本原因（Root Cause）並提供修復方案：\n\n語言與環境：[例如：Node.js v20, Python 3.11, Docker, PostgreSQL]\n預期行為：[原本應該發生什麼]\n實際異常現象：[目前發生了什麼異常或無響應]\n\n報錯訊息 / Stack Trace：\n\"\"\"\n[請在此貼上錯誤訊息或日誌堆疊]\n\"\"\"\n\n相關程式碼片段：\n\"\"\"\n[請在此貼上相關代碼]\n\"\"\"\n\n請提供：\n1. **根本原因剖析**：用清楚平實的語言解釋為何會引發此錯誤。\n2. **緊急修復方案**：以最小變更快速恢復運作的方法。\n3. **最佳實踐根治方案**：符合最佳規範、徹底防止此問題再次發生的重構代碼。\n4. **防禦性測試建議**：如何撰寫重現該 Bug 的單元測試以守護品質。"
+      }
+    }
+  },
+  {
+    "id": "code-explainer",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Code Explainer & Visualizer",
+        "description": "Demystify complex, legacy, or cryptic code with intuitive explanations and flow diagrams.",
+        "tags": [
+          "explanation",
+          "learning",
+          "legacy code",
+          "architecture"
+        ],
+        "prompt": "Act as a computer science professor and mentor. Explain the code snippet below so that anyone can clearly understand its mechanics and architecture.\n\nCode to Explain:\n\"\"\"\n[Paste complex or unfamiliar code here]\n\"\"\"\n\nProvide:\n1. **High-Level Purpose**: What problem does this solve in 2 sentences?\n2. **Step-by-Step Walkthrough**: Explain each key block and what state changes occur.\n3. **Data Flow / Logic Diagram**: A clean ASCII or text diagram mapping inputs to outputs.\n4. **Tricky Constructs**: Explain any unusual syntax, bitwise operations, or concurrency primitives used.\n5. **Time & Space Complexity**: Big-O analysis."
+      },
+      "zh-TW": {
+        "title": "複雜程式碼解說與邏輯拆解",
+        "description": "將晦澀難懂的演算法、遺留系統或高深語法，轉化為通俗易懂的步驟拆解與流程圖。",
+        "tags": [
+          "代碼解說",
+          "遺留代碼",
+          "程式教學",
+          "架構拆解"
+        ],
+        "prompt": "請扮演一位頂尖的資工系名師與資深導師。請將以下這段複雜、抽象或遺留的程式碼解釋清楚，讓不同程度的開發者都能透徹理解：\n\n待解說程式碼：\n\"\"\"\n[請在此貼上難懂的程式碼]\n\"\"\"\n\n請依序提供：\n1. **高層次目標（TL;DR）**：用 2 句話說明這段程式碼在解決什麼核心問題。\n2. **逐步邏輯推演**：逐步剖析關鍵程式碼區塊、變數生命週期與狀態變化。\n3. **資料流示意圖**：使用簡單的文字流程圖或 ASCII 標記資料如何從 Input 流向 Output。\n4. **特殊語法 / 奇巧淫技解析**：說明程式碼中用到的特殊語法糖、位元運算或並行設計。\n5. **時間與空間複雜度**：Big-O 分析與效能特點。"
+      }
+    }
+  },
+  {
+    "id": "unit-test-writer",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Comprehensive Unit Test Suite Generator",
+        "description": "Generate thorough unit tests covering happy paths, edge cases, and mocked dependencies.",
+        "tags": [
+          "testing",
+          "unit test",
+          "jest",
+          "pytest",
+          "qa"
+        ],
+        "prompt": "Act as a Senior QA Automation Architect. Write a comprehensive unit test suite for the function/class provided below.\n\nTarget Framework: [e.g. Jest / Vitest / Pytest / Go testing / JUnit]\nMocking Requirements: [e.g. Mock external HTTP requests, mock database repository]\n\nCode under test:\n\"\"\"\n[Paste function or class here]\n\"\"\"\n\nRequirements:\n1. **Happy Path Tests**: Typical valid inputs producing expected outputs.\n2. **Edge Cases**: Empty arrays, null/undefined, extreme integers, special characters.\n3. **Error Handling**: Verify expected exceptions and error responses are thrown gracefully.\n4. Follow standard conventions (Arrange-Act-Assert pattern) with descriptive test case names."
+      },
+      "zh-TW": {
+        "title": "全方位單元測試（Unit Test）生成器",
+        "description": "產出高覆蓋率的單元測試，完整涵蓋正常情境、極端邊界條件與依賴模擬（Mock）。",
+        "tags": [
+          "單元測試",
+          "自動化測試",
+          "Jest",
+          "Pytest",
+          "TDD"
+        ],
+        "prompt": "請扮演一位資深自動化測試架構師。請為以下函數或類別撰寫高覆蓋率且結構規範的單元測試套件：\n\n目標測試框架：[例如：Jest, Vitest, Pytest, Go testing, JUnit 5]\nMock 需求：[例如：需模擬外部 API 請求、資料庫連線、或時間函數]\n\n待測程式碼：\n\"\"\"\n[請在此貼上函數或 Class 程式碼]\n\"\"\"\n\n測試案例要求：\n1. **正常路徑（Happy Path）**：標準輸入下的正確預期產出。\n2. **極端與邊界案例（Edge Cases）**：包含空值、邊界數值、極大字串、特殊符號等異常情境。\n3. **錯誤與異常處理（Error Handling）**：驗證在非法參數下是否正確拋出預期例外。\n4. 嚴格遵循 AAA（Arrange - Act - Assert）三段式結構，並使用具表達力的測試名稱。"
+      }
+    }
+  },
+  {
+    "id": "regex-generator",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Regex Builder & Explainer",
+        "description": "Generate rock-solid regular expressions with test examples and visual breakdowns.",
+        "tags": [
+          "regex",
+          "pattern matching",
+          "validation",
+          "utility"
+        ],
+        "prompt": "Act as a Regular Expression wizard. Create a robust, high-performance regular expression according to my requirements.\n\nRegex Flavor / Engine: [e.g. JavaScript / PCRE / Python re / Go]\nWhat should MATCH (Positive Examples):\n- [Example 1]\n- [Example 2]\nWhat should NOT match (Negative Examples):\n- [Negative Example 1]\n- [Negative Example 2]\n\nOutput:\n1. The raw regex pattern and recommended flags (e.g. /pattern/gi).\n2. Human-readable explanation of each token/group.\n3. Safe copy-paste code snippet showing how to use it in the specified language.\n4. Warning on ReDoS (Regular Expression Denial of Service) risks if applicable."
+      },
+      "zh-TW": {
+        "title": "正規表達式（Regex）建構與解說器",
+        "description": "依據匹配規則生成安全且高效的正規表達式，附帶逐符號說明與程式碼範例。",
+        "tags": [
+          "正規表達式",
+          "Regex",
+          "格式驗證",
+          "字串處理"
+        ],
+        "prompt": "請扮演一位正規表達式（Regular Expression）專家。請根據以下規格建構一組穩健且高效的 Regex 規則：\n\n使用的語言或引擎：[例如：JavaScript / Python re / PCRE / Go]\n必須匹配成功的範例（Positive Examples）：\n- [範例一]\n- [範例二]\n必須排除、不匹配的範例（Negative Examples）：\n- [反例一]\n- [反例二]\n\n請輸出：\n1. 完整的 Regex 表達式與建議使用的 Flags（如 /pattern/gmi）。\n2. 逐段語法解構說明（解釋每個括號、量詞與斷言的意義）。\n3. 可以在該語言中直接複製使用的驗證函數範例碼。\n4. 是否存在 ReDoS（正規表達式災難性回溯造成 CPU 100%）風險的評估。"
+      }
+    }
+  },
+  {
+    "id": "sql-query-builder",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Optimized SQL Query Builder",
+        "description": "Write fast, safe, and clean SQL queries with indexing recommendations.",
+        "tags": [
+          "sql",
+          "database",
+          "query",
+          "performance",
+          "postgresql"
+        ],
+        "prompt": "Act as a Principal Database Administrator (DBA). Write an optimized SQL query for the scenario below.\n\nDatabase Engine: [e.g. PostgreSQL 16 / MySQL 8.0 / SQLite / BigQuery]\nTable Schemas:\n\"\"\"\n[Paste relevant CREATE TABLE statements or column definitions]\n\"\"\"\n\nThe Question / Requirement:\n[e.g. Find the top 5 spenders in the last 30 days who have made at least 3 orders, including total spent]\n\nDeliver:\n1. Clean, well-formatted SQL query with comments.\n2. Explanation of JOINs, aggregation, and window functions used.\n3. Indexing strategy: Recommend composite indexes to make this query run in sub-millisecond time.\n4. EXPLAIN ANALYZE guidance: Potential bottlenecks to watch for."
+      },
+      "zh-TW": {
+        "title": "高效能 SQL 查詢與索引規劃師",
+        "description": "根據資料表結構撰寫最佳化 SQL 語法，並提供索引規劃與查詢效能建議。",
+        "tags": [
+          "SQL",
+          "資料庫",
+          "效能優化",
+          "PostgreSQL",
+          "MySQL"
+        ],
+        "prompt": "請扮演一位頂級資料庫管理員（DBA）與資料架構師。請根據以下情境撰寫兼具效能與可讀性的最佳化 SQL 查詢：\n\n資料庫類型：[例如：PostgreSQL 16 / MySQL 8 / SQLite / BigQuery]\n相關資料表結構（Schema）：\n\"\"\"\n[請貼上 CREATE TABLE 語法或欄位說明]\n\"\"\"\n\n查詢需求與商業問題：\n[例如：找出過去 30 天內消費總額最高、且訂單數超過 3 筆的前 5 名 VIP 客戶及其總消費額]\n\n請輸出：\n1. 排版工整、具備註解的高效 SQL 語法。\n2. 語法拆解說明（包含 JOIN 策略、彙總聚合或視窗函數的使用原委）。\n3. 推薦的索引建立策略（例如 Composite Index），確保在高資料量下依然飛快。\n4. 執行計畫（EXPLAIN ANALYZE）檢查重點與潛在效能雷區。"
+      }
+    }
+  },
+  {
+    "id": "api-documentation-writer",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Developer-Friendly API Documentation Writer",
+        "description": "Turn backend route handlers into clear, OpenAPI-standard documentation with examples.",
+        "tags": [
+          "api",
+          "documentation",
+          "openapi",
+          "rest",
+          "backend"
+        ],
+        "prompt": "Act as a Senior Technical Writer for developer products. Convert the backend endpoint details or controller code below into pristine, developer-friendly documentation.\n\nEndpoint Details:\n- HTTP Method & Path: [e.g. POST /api/v1/subscriptions/checkout]\n- Authentication: [e.g. Bearer JWT required]\n- Request Body / Headers / Params: [Details or JSON sample]\n- Response Schema (Success 200/201 and Common Errors 400, 401, 429): [Details]\n\nGenerate:\n1. Overview & Use Case in 1 sentence\n2. Request Specifications (Headers, Query params, JSON body table)\n3. Ready-to-run cURL command example\n4. Realistic JSON Success Response (200 OK)\n5. Comprehensive Error Responses table with error codes and resolutions."
+      },
+      "zh-TW": {
+        "title": "專業開發者 API 文件撰寫器",
+        "description": "將後端路由或介面規格轉化為結構清晰、包含範例與錯誤碼的標準 API 文件。",
+        "tags": [
+          "API 文件",
+          "RESTful",
+          "開發者體驗",
+          "Swagger",
+          "後端"
+        ],
+        "prompt": "請扮演一位頂級科技公司的技術文件工程師（Technical Writer）。請將以下後端 API 規格轉化為專業、易讀且對前端與串接夥伴極度友善的 API 文件：\n\nAPI 基本資訊：\n- HTTP Method 與路徑：[例如：POST /api/v1/payments/charge]\n- 身份驗證機制：[例如：Bearer Token / API Key]\n- 請求參數 / Headers / Request Body：[提供欄位或 JSON 範例]\n- 預期成功與失敗狀態：[例如：200 成功、400 參數有誤、402 扣款失敗]\n\n請產出標準文件：\n1. API 簡介與使用情境（一句話說明白）\n2. 請求規格說明（包含欄位名稱、資料型態、是否必填、驗證條件）\n3. 可直接執行的 cURL 終端機請求範例\n4. 完整的 JSON 成功回應範例（200 OK）\n5. 常見錯誤碼表格（包含 HTTP Status、錯誤代碼與開發者排除建議）。"
+      }
+    }
+  },
+  {
+    "id": "refactoring-assistant",
+    "category": "coding",
+    "locales": {
+      "en-US": {
+        "title": "Clean Code Refactoring Assistant",
+        "description": "Refactor complex functions to improve readability, eliminate code smells, and reduce nesting.",
+        "tags": [
+          "refactoring",
+          "clean code",
+          "dry",
+          "architecture"
+        ],
+        "prompt": "Act as a software architecture specialist. Refactor the following code to make it cleaner, more maintainable, and aligned with modern design patterns.\n\nCode to Refactor:\n\"\"\"\n[Paste code with code smells, deep nesting, or duplication]\n\"\"\"\n\nRefactoring Objectives:\n1. Eliminate deeply nested if/else statements (use early returns / guard clauses).\n2. Adhere to the Single Responsibility Principle (SRP).\n3. Improve variable and function naming.\n4. Preserve 100% of the original functionality.\n\nDeliver:\n- List of specific code smells identified.\n- Step-by-step rationale for architectural changes.\n- The refactored code."
+      },
+      "zh-TW": {
+        "title": "Clean Code 程式碼重構大師",
+        "description": "重構過度嵌套、重複冗贅或難以維護的代碼，消除壞味道並保留原有行為。",
+        "tags": [
+          "程式重構",
+          "Clean Code",
+          "消除壞味道",
+          "架構優化"
+        ],
+        "prompt": "請扮演一位 Clean Code 重構大師與軟體架構專家。請重構以下這段難以閱讀、深層嵌套或充斥重複邏輯的程式碼：\n\n待重構程式碼：\n\"\"\"\n[請在此貼上混亂或需要重構的程式碼]\n\"\"\"\n\n重構目標：\n1. 消除過多層級的 if/else 嵌套（善用 Guard Clauses 提前返回）。\n2. 遵守單一職責原則（SRP），將肥大函數合理拆解。\n3. 採用直觀有意義的變數與函數命名。\n4. 嚴格確保原有業務邏輯與行為 100% 不變。\n\n輸出要求：\n- 指出原程式碼中存在的 2-3 個主要壞味道（Code Smells）。\n- 逐步說明重構策略與理由。\n- 提供乾淨俐落、架構優雅的最終重構代碼。"
+      }
+    }
+  },
+  {
+    "id": "concept-simplifier",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "ELI5 Concept Simplifier",
+        "description": "Break down intimidating technical, scientific, or philosophical concepts for anyone.",
+        "tags": [
+          "eli5",
+          "learning",
+          "simplification",
+          "education"
+        ],
+        "prompt": "Act as a master educator capable of explaining the most complex ideas to a beginner. Explain the following concept:\n\nConcept / Topic: [e.g. Quantum Computing, Zero-Knowledge Proofs, Inflation, Epigenetics]\nMy Current Background: [e.g. Complete novice / High school student / Software developer with no math background]\n\nPlease provide:\n1. **The 30-Second Elevator Pitch**: What is it in plain words without jargon?\n2. **The Everyday Analogy**: Explain it using a relatable real-world comparison (e.g. cooking, traffic, games).\n3. **How It Works (Under the Hood)**: 3-4 progressive bullet points explaining the core mechanism.\n4. **Why It Matters to Me**: The real-world consequence or practical application.\n5. **Quick Quiz**: 1 simple question to test my understanding."
+      },
+      "zh-TW": {
+        "title": "大白話概念簡化器（ELI5）",
+        "description": "將生硬晦澀的科學原理、技術名詞或哲學概念，用小學生都能懂的大白話解釋。",
+        "tags": [
+          "概念解釋",
+          "通俗易懂",
+          "自主學習",
+          "費曼法"
+        ],
+        "prompt": "請扮演一位擅長深入淺出的科學教育家。請為我用最生動、通俗的大白話解釋以下概念：\n\n想要理解的概念：[例如：量子運算、零知識證明、通貨膨脹成因、表觀遺傳學]\n我目前的背景基礎：[例如：完全零基礎 / 非工科背景 / 有寫程式經驗但不懂高等數學]\n\n請依照以下架構講解：\n1. **30 秒核心概念**：完全不使用任何艱深術語，用最口語的方式講出它的本質。\n2. **生活化神比喻**：用日常生活常見的事物（如廚房做菜、交通號誌、排隊購物）來打比方。\n3. **運作原理拆解**：條列 3-4 個循序漸進的關鍵步驟說明它如何運作。\n4. **它跟我有什麼關係？**：說明這項技術或概念在現實世界中的實際應用與影響。\n5. **小測驗**：留一題簡單有趣的問題，讓我檢驗自己是否真正搞懂。"
+      }
+    }
+  },
+  {
+    "id": "study-plan-creator",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Accelerated Study Plan Creator",
+        "description": "Build a structured, milestone-based learning roadmap for mastering any subject.",
+        "tags": [
+          "study plan",
+          "roadmap",
+          "self-learning",
+          "skills"
+        ],
+        "prompt": "Act as an accelerated learning coach. Build a rigorous, realistic study plan for me to learn the following skill or subject:\n\nTarget Skill: [e.g. Prompt Engineering, Full-Stack Web Dev with Next.js, Conversational Spanish]\nTime Available: [e.g. 1 hour per day for 4 weeks]\nCurrent Level: [Complete beginner / Intermediate]\nUltimate Capstone Project / Test: [e.g. Build and deploy a full SaaS app, pass B1 test]\n\nStructure the plan into:\n1. **Curated Curriculum Map**: Weekly milestones with specific learning objectives.\n2. **Best Free/Paid Resources**: Top 2 books, official docs, or free video courses.\n3. **Hands-On Exercises**: Small daily/weekly mini-projects to reinforce muscle memory.\n4. **Knowledge Checkpoints**: Self-assessment questions at the end of each week."
+      },
+      "zh-TW": {
+        "title": "高強度自主學習藍圖規劃師",
+        "description": "針對任何全新技能或學科，規劃拆解明確、帶有實作里程碑的自學進度表。",
+        "tags": [
+          "自學計畫",
+          "技能養成",
+          "學習地圖",
+          "里程碑"
+        ],
+        "prompt": "請扮演一位高成效自學教練。請為我量身打造一套具體可行、以專案為導向的快速學習計畫：\n\n目標學習主題：[例如：Prompt Engineering、Next.js 全端開發、商務日語會話]\n可投入時間：[例如：每天 1 小時，持續 4 週]\n現有基礎水平：[完全初學者 / 有其他程式語言基礎]\n最終結業成果目標：[例如：獨立部署一個上線的 AI 工具網站 / 通過特定檢定]\n\n計畫架構：\n1. **每週學習里程碑**：分週列出每週核心主題與學習目標。\n2. **精選學習資源**：推薦 2-3 個最權威或高評價的免費/付費教材或官方文檔。\n3. **以專案驅動的實作練習**：每週規劃一個小練習，避免只看不動手的空想。\n4. **每週自檢清單**：週結檢核題，確認自己真正吸收關鍵觀念。"
+      }
+    }
+  },
+  {
+    "id": "feynman-technique-tutor",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Feynman Technique Interactive Tutor",
+        "description": "Test your mastery of any concept by teaching it to an inquisitive AI persona.",
+        "tags": [
+          "feynman technique",
+          "active recall",
+          "mastery",
+          "tutoring"
+        ],
+        "prompt": "Act as an intelligent, curious high school student who wants to understand a topic. I will use the Feynman Technique to teach it to you in simple terms.\n\nMy Topic: [e.g. How the Internet works / Photosynthesis / Git version control]\n\nRules for your role:\n1. Listen to my explanation.\n2. Challenge any unexplained jargon or hand-wavy assumptions by asking friendly \"Wait, what does that word mean?\" or \"Why does that step happen?\".\n3. Point out logical gaps in my explanation.\n4. Help me refine my explanation until it is crystal clear, accurate, and completely free of jargon.\n\nStart by saying: \"I'm excited to learn about [Topic]! Can you explain the basics to me as if I've never heard of it before?\""
+      },
+      "zh-TW": {
+        "title": "費曼學習法互動教練",
+        "description": "扮演充滿好奇心的學生，透過主動提問挑戰你的知識盲點，徹底掌握該概念。",
+        "tags": [
+          "費曼學習法",
+          "以教代學",
+          "盲點排查",
+          "深度理解"
+        ],
+        "prompt": "請扮演一位聰明但零基礎的高中生，對知識充滿好奇。我將運用「費曼學習法」，用最通俗易懂的方式將一個主題講授給你聽：\n\n我想講解的主題：[例如：網際網路如何運作 / 光合作用過程 / Git 版本控制核心邏輯]\n\n你的互動規則：\n1. 認真聆聽我的說明。\n2. 一旦我使用任何專業術語或講得語焉不詳，請立刻發問挑戰，例如：「等等，這個詞是什麼意思？」或「為什麼這一步驟會引發下一步？」。\n3. 幫我揪出邏輯跳躍或自我矛盾的死角。\n4. 引導我逐步將說明修改得無懈可擊且毫無術語堆砌。\n\n請先熱情地回覆我：「我很想學 [主題]！你可以先用最簡單的一句話，當作我完全沒聽過一樣，開始解釋給我聽嗎？」"
+      }
+    }
+  },
+  {
+    "id": "exam-question-generator",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Active Recall Exam Question Generator",
+        "description": "Generate rigorous flashcards and test questions to reinforce active recall.",
+        "tags": [
+          "exam",
+          "flashcards",
+          "active recall",
+          "test prep"
+        ],
+        "prompt": "Act as a university professor. Based on the notes or text provided below, generate an active recall test to evaluate my depth of understanding.\n\nStudy Notes / Source Material:\n\"\"\"\n[Paste your study material, article, or chapter notes here]\n\"\"\"\n\nCreate:\n1. **5 Multiple-Choice Questions**: Testing subtle nuances (include plausible distractor options).\n2. **3 Short-Answer Conceptual Questions**: Requiring synthesis, not mere memorization.\n3. **1 Scenario-Based Problem**: Applying the knowledge to solve a realistic challenge.\n4. **Answer Key & Explanations**: Provide detailed reasoning for why correct answers are right and distractors are wrong (placed at the bottom)."
+      },
+      "zh-TW": {
+        "title": "主動回想測驗題生成器",
+        "description": "根據筆記或教材自動產製具備鑑別度的考題與解析，強化主動提取記憶效益。",
+        "tags": [
+          "複習測驗",
+          "主動回想",
+          "考題產製",
+          "學習評量"
+        ],
+        "prompt": "請扮演一位大學出題教授。請根據我提供的學習筆記或教材，設計一份具備深度鑑別度的主動回想（Active Recall）測驗卷：\n\n教材與複習筆記：\n\"\"\"\n[請在此貼上學習筆記、文章或章節重點]\n\"\"\"\n\n請產出：\n1. **5 題單選題**：針對易混淆觀念設計具誘答力的干擾選項。\n2. **3 題觀念申論簡答題**：需要融會貫通而非死記硬背的論述題。\n3. **1 題實務情境應用題**：模擬真實情境，考核如何將理論運用於解決問題。\n4. **答案卷與詳解**：附於最下方，詳細說明正確答案之推導邏輯及干擾選項錯誤原因。"
+      }
+    }
+  },
+  {
+    "id": "analogy-maker",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Creative Analogy & Mental Model Maker",
+        "description": "Craft vivid, memorable analogies to make abstract principles stick forever.",
+        "tags": [
+          "analogy",
+          "mental models",
+          "memory",
+          "metaphor"
+        ],
+        "prompt": "Act as a cognitive psychologist specializing in memory and analogies. I need to understand and remember an abstract concept.\n\nAbstract Concept: [e.g. Asynchronous event loop in JavaScript / Supply and demand / Public Key Cryptography]\n\nGenerate 3 completely different analogies suited for different thinking styles:\n1. **Physical World Analogy**: (e.g. Kitchen, restaurant, highway system)\n2. **Social / Story Analogy**: (e.g. A mystery, party guest behavior, marketplace bargaining)\n3. **Visual / Architectural Analogy**: (e.g. Building blueprints, plumbing, circuit boards)\n\nFor each analogy:\n- Explain what each element in the analogy represents.\n- Highlight the exact limitation where the analogy breaks down (to prevent misconceptions)."
+      },
+      "zh-TW": {
+        "title": "心智模型與創意比喻生成器",
+        "description": "為抽象死板的概念打造 3 組不同視角的生活化比喻，強化大腦記憶與理解錨點。",
+        "tags": [
+          "比喻",
+          "心智模型",
+          "深度記憶",
+          "抽象概念"
+        ],
+        "prompt": "請扮演一位專精認知心理學與心智模型的記憶大師。我希望深刻記住並理解一個抽象原理：\n\n抽象觀念：[例如：JavaScript 的事件循環（Event Loop）/ 供需法則 / 非對稱加密與公私鑰]\n\n請為我量身打造 3 種截然不同視角的神比喻：\n1. **實體生活情境比喻**：（例如：餐廳出餐流程、高速公路收費站、排隊點餐）\n2. **人際社交與故事比喻**：（例如：派對禮儀、郵差送信、借據公證）\n3. **機械或建築工藝比喻**：（例如：房屋管線水流、齒輪傳動、工廠流水線）\n\n針對每組比喻：\n- 詳細對照各個元素分別代表什麼實體概念。\n- 特別指出該比喻在何處「不再適用（極限邊界）」，避免過度推論產生錯誤認知。"
+      }
+    }
+  },
+  {
+    "id": "vocabulary-builder",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Contextual Vocabulary Mastery Coach",
+        "description": "Master advanced vocabulary in context with collocations, nuances, and usage scenarios.",
+        "tags": [
+          "vocabulary",
+          "language learning",
+          "gre",
+          "ielts",
+          "advanced english"
+        ],
+        "prompt": "Act as a lexicographer and language acquisition specialist. Help me thoroughly master the target word or list below.\n\nTarget Word(s): [e.g. Ubiquitous / Pragmatic / Ephemeral / Paradigm]\nMy Goal: [e.g. GRE exam / Professional writing / Natural spoken English]\n\nFor each word, provide:\n1. **Clear Definition & Etymology**: Core meaning and fascinating origin story to anchor memory.\n2. **Common Collocations**: 3-4 natural word pairings (verbs, prepositions, adjectives) native speakers use.\n3. **Subtle Nuances vs Synonyms**: Why choose this word over simpler alternatives?\n4. **3 Contextual Example Sentences**:\n   - Everyday conversational usage\n   - Professional or academic publication context\n   - Story/creative context\n5. **A vivid mnemonic device** to remember it effortlessly."
+      },
+      "zh-TW": {
+        "title": "語境化高階單字精熟教練",
+        "description": "擺脫死背單字！透過詞源故事、道地搭配詞（Collocations）與語意辨析深度掌握詞彙。",
+        "tags": [
+          "單字學習",
+          "搭配詞",
+          "高階英文",
+          "雅思托福",
+          "字彙精修"
+        ],
+        "prompt": "請扮演一位詞彙學家與第二語言習得專家。請幫我全面且深刻地掌握以下單字：\n\n目標單字：[例如：Ubiquitous / Pragmatic / Ephemeral / Paradigm]\n學習目的：[例如：留學考試 GRE/托福、高階商務書信、母語者口語自然表達]\n\n針對每個單字請提供：\n1. **核心語意與詞源故事**：說明詞根詞綴與由來，建立記憶錨點。\n2. **道地搭配詞（Collocations）**：列出 3-4 組母語人士最常搭配的動詞、介系詞或名詞。\n3. **近義詞精細辨析**：它與常見同義詞有何細微差異？在什麼語境下用它最精準？\n4. **3 種不同語境的例句**：\n   - 日常生活口語句\n   - 商務或學術出版品例句\n   - 故事或文學風格例句\n5. **過目不忘的記憶口訣或聯想法**。"
+      }
+    }
+  },
+  {
+    "id": "critical-thinking-coach",
+    "category": "learning",
+    "locales": {
+      "en-US": {
+        "title": "Critical Thinking & Cognitive Bias Detector",
+        "description": "Unpack arguments, detect logical fallacies, and evaluate evidentiary strength.",
+        "tags": [
+          "critical thinking",
+          "logical fallacy",
+          "bias",
+          "analysis"
+        ],
+        "prompt": "Act as a professor of logic, rhetoric, and decision analysis. Scrutinize the statement, argument, or article excerpt provided below.\n\nArgument / Statement to Analyze:\n\"\"\"\n[Paste argument, opinion piece, or debate point here]\n\"\"\"\n\nProvide an objective critique covering:\n1. **Core Premises & Conclusion**: Deconstruct the explicit and hidden assumptions.\n2. **Logical Fallacies Detected**: (e.g. Straw man, ad hominem, false dilemma, correlation vs causation).\n3. **Cognitive Biases at Play**: (e.g. Confirmation bias, survivorship bias, sunk cost fallacy).\n4. **Steel-Manning the Counterargument**: Present the strongest possible opposing argument.\n5. **Questions to Ask**: 3 critical investigative questions that would prove or disprove the premise."
+      },
+      "zh-TW": {
+        "title": "批判性思維與邏輯謬誤檢驗器",
+        "description": "拆解爭議論述的隱性假設，揪出認知偏誤與邏輯漏洞，並建構最強對立觀點。",
+        "tags": [
+          "批判性思維",
+          "邏輯謬誤",
+          "認知偏誤",
+          "辯證思考"
+        ],
+        "prompt": "請扮演一位專精於邏輯學、修辭學與決策分析的哲學教授。請客觀且嚴謹地檢驗以下論述或觀點：\n\n待分析的論點或言論：\n\"\"\"\n[請在此貼上特定言論、爭議文章或辯論觀點]\n\"\"\"\n\n請提供深度剖析：\n1. **核心前提與結論拆解**：明示論點與未明說的「隱性假設（Hidden Assumptions）」。\n2. **邏輯謬誤檢驗**：指出其中是否存在稻草人謬誤、滑坡謬誤、因果倒置、假兩難等問題。\n3. **潛在認知偏誤**：分析發言者可能受何種偏誤影響（如確認偏誤、倖存者偏誤）。\n4. **建構「鋼人論點」（Steel-Manning）**：為相反立場提出最強而有力、最難以反駁的反向論述。\n5. **關鍵檢驗問題**：列出 3 個能驗證或推翻此論點的關鍵實證問題。"
+      }
+    }
+  },
+  {
+    "id": "marketing-copy-writer",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "High-Converting Sales Copywriter",
+        "description": "Write persuasive landing page and ad copy using proven frameworks like PAS and AIDA.",
+        "tags": [
+          "copywriting",
+          "sales copy",
+          "landing page",
+          "marketing",
+          "conversion"
+        ],
+        "prompt": "Act as an elite direct-response copywriter. Write persuasive marketing copy for the product described below.\n\nProduct / Service: [e.g. B2B AI meeting summarizer for remote engineering teams]\nTarget Audience & Core Pain Point: [e.g. Engineering managers spending 10 hrs/week in syncs]\nKey Unique Selling Proposition (USP): [e.g. Integrates natively with Jira and GitHub]\nCall to Action (CTA): [e.g. Start 14-day free trial]\n\nOutput copy using these two frameworks:\n1. **Framework 1: PAS (Problem - Agitate - Solution)**\n   - Problem: Punchy hook acknowledging the painful reality\n   - Agitate: Intensify the hidden costs and emotional toll of inaction\n   - Solution: Present our product as the natural, effortless fix\n2. **Framework 2: Feature-to-Benefit Table**\n   - 3 Key Features transformed into direct emotional and financial benefits for the buyer.\n3. **Hero Section Draft**:\n   - H1 Headline (max 8 words)\n   - Subheadline (max 20 words)\n   - CTA button text + trust badge snippet."
+      },
+      "zh-TW": {
+        "title": "高轉化行銷文案架構師",
+        "description": "運用 PAS、AIDA 等經典文案心理學框架，撰寫直擊痛點的著陸頁與銷售文案。",
+        "tags": [
+          "行銷文案",
+          "轉化率",
+          "著陸頁",
+          "銷售心理學",
+          "廣告文案"
+        ],
+        "prompt": "請扮演一位頂級直效行銷文案大師（Direct-Response Copywriter）。請為以下產品撰寫具說服力且高轉化率的行銷文案：\n\n產品 / 服務：[例如：專為遠距軟體團隊打造的 AI 會議紀要與進度追蹤工具]\n目標客群與最大痛點：[例如：每週花超過 10 小時在開會與同步進度的工程主管]\n獨特賣點（USP）：[例如：無縫整合 Jira、GitHub，1 秒自動生成工單]\n主要行動呼籲（CTA）：[例如：免費試用 14 天，無須綁定信用卡]\n\n請產出：\n1. **經典 PAS 框架文案（Problem - Agitation - Solution）**\n   - 痛點勾引（直指真實困境）\n   - 痛點放大（如果不改變，將付出哪些時間、金錢與心力代價）\n   - 解決方案（自然且強烈地引入產品成為唯一解方）\n2. **特性轉利益對照表（Feature to Benefit）**\n   - 將產品的 3 大技術特性轉化為「能為客戶省下多少時間或創造多少價值」的終極利益。\n3. **著陸頁首屏（Hero Section）文案**\n   - 主標題 H1（簡潔有力，8-12 字內）\n   - 副標題（補充說明方案與效益）\n   - CTA 按鈕文字與信任標章文案（如：已有 200+ 家團隊採用）。"
+      }
+    }
+  },
+  {
+    "id": "competitor-analysis-helper",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "Strategic Competitor Analysis Matrix",
+        "description": "Evaluate competitors' positioning, pricing, strengths, and exploitable gaps.",
+        "tags": [
+          "competitor analysis",
+          "strategy",
+          "market research",
+          "business"
+        ],
+        "prompt": "Act as a Chief Strategy Officer and market research consultant. Conduct a comprehensive competitor analysis for my company/product.\n\nOur Product: [e.g. Modern lightweight CRM for Notion users]\nMain Competitors: [e.g. HubSpot, Pipedrive, Folk CRM]\nTarget Market: [e.g. Freelancers, boutique agencies, early-stage creators]\n\nProvide:\n1. **Competitive Landscape Matrix**:\n   - Compare pricing models, target segment, key strengths, and biggest user complaints.\n2. **Competitor Vulnerabilities & Feature Gaps**: Where are competitors bloated, overpriced, or ignoring user requests?\n3. **Our Differentiated Positioning Statement**: A 1-sentence value proposition highlighting our unfair advantage.\n4. **Actionable Go-To-Market Angles**: 3 messaging angles to win over dissatisfied users of competitor products."
+      },
+      "zh-TW": {
+        "title": "競品策略分析與差異化矩陣",
+        "description": "深入解析競爭對手的產品定位、定價策略、優缺點與市場未被滿足的痛點缺口。",
+        "tags": [
+          "競品分析",
+          "商業策略",
+          "市場調研",
+          "差異化定位"
+        ],
+        "prompt": "請扮演一位資深市場策略長（CSO）與商業顧問。請為我的產品進行深度競品調研與差異化分析：\n\n我的產品 / 服務：[例如：專為自由工作者與個人品牌設計的極簡 CRM]\n主要競爭對手：[例如：HubSpot、Notion 自製模板、Folk CRM]\n目標客群：[例如：獨立接案者、小型顧問工作室]\n\n請產出：\n1. **競品分析對照矩陣**：\n   - 橫向比較定價策略、目標族群、核心強項、以及在社群上最常被抱怨的弱點。\n2. **市場縫隙與對手軟肋**：對手是否過於龐雜臃腫、定價過高、抑或是忽視了哪群特定用戶的需求？\n3. **差異化定位陳述句（Positioning Statement）**：一句話講明為何客戶應該選擇我們而非老牌競品。\n4. **搶佔市佔率的切入點（GTM Angles）**：3 個具體的行銷切入主張，吸引對現有競品不滿的轉換用戶。"
+      }
+    }
+  },
+  {
+    "id": "business-idea-validator",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "Brutal Business Idea Stress-Tester",
+        "description": "Stress-test startup concepts before spending money: unit economics, risks, and MVPs.",
+        "tags": [
+          "startup",
+          "validation",
+          "mvp",
+          "entrepreneurship",
+          "business"
+        ],
+        "prompt": "Act as a seasoned Y-Combinator partner and angel investor. Tear apart and constructively stress-test my new business idea.\n\nBusiness Concept: [Describe your idea, what you sell, and who buys it]\nMonetization Plan: [How you plan to charge: subscription, transactional, marketplace fee]\nTarget Audience: [Who is the ideal customer profile]\n\nEvaluate ruthlessly on:\n1. **The \"Hair-on-Fire\" Test**: Is this a vitamin (nice to have) or a painkiller (must have)?\n2. **Fatal Flaws & Kill Risks**: The top 3 reasons this business could fail within 12 months.\n3. **Unit Economics & Moat**: What will CAC vs LTV look like? What stops Google or an incumbent from copying it in a week?\n4. **The $100 48-Hour Validation Experiment**: How can I validate customer willingness to pay before writing any code?"
+      },
+      "zh-TW": {
+        "title": "創業點子極限壓力測試器",
+        "description": "以矽谷頂級創投的毒舌視角無情檢視商業構想，驗證真實需求與 48 小時低成本 MVP。",
+        "tags": [
+          "創業驗證",
+          "商業模式",
+          "MVP",
+          "天使投資",
+          "產品市場契合"
+        ],
+        "prompt": "請扮演一位風格犀利、經驗豐富的 Y Combinator 合夥人與天使投資人。請客觀且嚴苛地對我的新商業點子進行極限壓力測試：\n\n商業構想：[描述你的點子、賣什麼、賣給誰]\n獲利模式：[如何收費：訂閱制、單次抽成、買斷還是廣告]\n目標客群：[誰是第一批願意掏錢的早期核心用戶]\n\n請針對以下維度進行殘酷審查：\n1. **止痛藥 vs 維他命檢驗**：這是客戶非買不可的「止痛藥」，還是可有可無的「維他命」？\n2. **致命盲點與死亡陷阱**：列出最可能讓這個專案在一年內陣亡的 3 個致命原因。\n3. **商業護城河**：既有巨頭或競爭者為何不能花一週就抄走你的核心價值？\n4. **48 小時低成本驗證實驗**：在不寫任何一行程式碼、花費低於台幣 3000 元的前提下，如何設計一個實驗驗證「市場真的願意掏錢」？"
+      }
+    }
+  },
+  {
+    "id": "swot-analysis-guide",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "Actionable TOWS / SWOT Analysis",
+        "description": "Move beyond basic SWOT to actionable strategies pairing internal strengths with opportunities.",
+        "tags": [
+          "swot",
+          "strategy",
+          "tows",
+          "management",
+          "consulting"
+        ],
+        "prompt": "Act as a senior strategy consultant from McKinsey. Create an actionable SWOT / TOWS matrix for the following company or initiative.\n\nCompany / Project Overview: [e.g. Mid-sized e-commerce brand launching a private label line]\nIndustry & Market Context: [e.g. Rising ad costs on Meta, supply chain delays, growing TikTok shop demand]\n\nGenerate:\n1. **Classic SWOT Breakdown**:\n   - Strengths (Internal advantages)\n   - Weaknesses (Internal limitations)\n   - Opportunities (External tailwinds)\n   - Threats (External risks)\n2. **TOWS Action Strategies**:\n   - **SO Strategy (Maxi-Maxi)**: How do we use strengths to maximize opportunities?\n   - **WO Strategy (Mini-Maxi)**: How do we overcome weaknesses by seizing opportunities?\n   - **ST Strategy (Maxi-Mini)**: How do we use strengths to shield against threats?\n   - **WT Strategy (Mini-Mini)**: How do we minimize weaknesses and avoid threats?"
+      },
+      "zh-TW": {
+        "title": "TOWS 交叉 SWOT 策略規劃矩陣",
+        "description": "超越傳統死板的四象限條列，透過 TOWS 矩陣將內部優勢與外部機會交叉碰撞出實戰策略。",
+        "tags": [
+          "SWOT",
+          "TOWS",
+          "企業策略",
+          "顧問思維",
+          "商業決策"
+        ],
+        "prompt": "請扮演一位頂級管理顧問公司（如 McKinsey）的策略合夥人。請為以下企業或專案產出一份具備實戰指導價值的 TOWS 交叉 SWOT 分析：\n\n企業 / 專案現況：[例如：中小型美妝電商正計畫推出自有品牌保養品]\n產業趨勢與外部環境：[例如：臉書廣告成本暴增、原物料通膨、短影音直播帶貨興起]\n\n請產出：\n1. **經典 SWOT 拆解**：\n   - 優勢（內部核心強項）\n   - 劣勢（內部短板與資源限制）\n   - 機會（外部市場紅利與機會窗口）\n   - 威脅（法規、競品與總體經濟風險）\n2. **TOWS 交叉實戰行動策略**：\n   - **SO 策略（發揮優勢、搶佔機會）**：如何傾注現有優勢最大化市場商機？\n   - **WO 策略（克服劣勢、抓住機會）**：如何利用外部機會扭轉內部短板？\n   - **ST 策略（利用優勢、抵禦威脅）**：如何運用既有壁壘化解外部市場風暴？\n   - **WT 策略（防禦收縮、避開致命傷）**：面對最壞情況的停損與避險預案。"
+      }
+    }
+  },
+  {
+    "id": "social-media-caption-writer",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "Multi-Platform Social Media Post Writer",
+        "description": "Adapt one core message into native formats for LinkedIn, X (Twitter), and Instagram.",
+        "tags": [
+          "social media",
+          "linkedin",
+          "twitter",
+          "content marketing",
+          "copy"
+        ],
+        "prompt": "Act as a viral social media manager. Adapt the following announcement or insight into 3 tailored formats for different platforms.\n\nCore Message / News:\n\"\"\"\n[Insert core takeaway, product release, or lesson learned here]\n\"\"\"\nTarget Audience: [e.g. Founders, designers, general tech workers]\n\nProduce:\n1. **LinkedIn Post**: Professional storytelling format with clean line breaks, insightful takeaway, and conversation-starting question.\n2. **X (Twitter) Thread Starter**: High-hook tweet (under 280 characters) designed to maximize retweets and replies.\n3. **Instagram Caption**: Visual hook, conversational voice, and 5-8 hyper-relevant hashtags.\n4. **Key Metric to Watch**: Suggest which KPI (comments, shares, saves) matters most for this topic."
+      },
+      "zh-TW": {
+        "title": "跨平台社群貼文爆款生成器",
+        "description": "將同一個核心觀點或產品資訊，一秒改編為符合 Threads、LinkedIn、IG 特性的吸睛貼文。",
+        "tags": [
+          "社群經營",
+          "Threads",
+          "LinkedIn",
+          "文案變形",
+          "社群行銷"
+        ],
+        "prompt": "請扮演一位掌管數十萬粉絲的頂級社群營運總監。請將以下核心觀點或消息，改寫為符合各平台受眾生態的最佳化貼文：\n\n核心觀點或發布消息：\n\"\"\"\n[請在此貼上你的核心觀點、專案上線消息或實戰心得]\n\"\"\"\n目標讀者群：[例如：軟體開發者、行銷人、自由接案者、大學生]\n\n請產出：\n1. **Threads / X 爆款開場短文**：強烈懸念、具備高轉發（Repost）與引發留言論戰的節奏短文。\n2. **LinkedIn 專業復盤長文**：採用故事敘事、清晰空行排版、具備專業見解，最後拋出互動問題。\n3. **Instagram 圖文貼文說明**：親切的生活口吻、條列式重點、以及 5-8 個精準標籤（Hashtags）。\n4. **成效關鍵指標**：針對本篇主題，建議重點關注哪項指標（轉發、收藏還是討論數）。"
+      }
+    }
+  },
+  {
+    "id": "product-description-writer",
+    "category": "business",
+    "locales": {
+      "en-US": {
+        "title": "E-Commerce Product Description Writer",
+        "description": "Write sensory, benefit-driven product copy that drives purchases and ranks for SEO.",
+        "tags": [
+          "e-commerce",
+          "product description",
+          "shopify",
+          "sales",
+          "seo"
+        ],
+        "prompt": "Act as an experienced e-commerce merchandising copywriter. Write a persuasive, SEO-friendly product description for the item below.\n\nProduct Name: [e.g. Ergonomic Memory Foam Lumbar Support Pillow]\nKey Specs & Materials: [e.g. Breathable mesh, cooling gel insert, adjustable straps]\nTarget Shopper: [e.g. Office workers and gamers sitting 8+ hours a day]\nPrice Point: [e.g. Premium $69]\n\nDeliver:\n1. **Sensory Hook (2-3 sentences)**: Describe the immediate physical relief or aesthetic joy of using it.\n2. **Bullet Points of Key Benefits** (not just features): Focus on sleep quality, posture, pain elimination.\n3. **Who This is Perfect For vs Not For**: Builds trust through honest customer fit.\n4. **SEO Keywords included**: List 3-5 high-intent search terms integrated into the text."
+      },
+      "zh-TW": {
+        "title": "電商高轉換商品文案撰寫器",
+        "description": "融合五感體驗描寫與 SEO 關鍵字，撰寫直擊買家購物慾望的商品詳情文案。",
+        "tags": [
+          "電商文案",
+          "商品描述",
+          "Shopify",
+          "轉化率",
+          "開箱感"
+        ],
+        "prompt": "請扮演一位頂級電商選品文案高手。請為以下商品撰寫一段兼具五感沉浸體驗與高轉換率的商品詳情頁文案：\n\n商品名稱：[例如：人體工學透氣記憶棉腰靠墊]\n規格與材質亮點：[例如：冷凝凝膠層、透氣鳥眼布、雙向可調節束帶]\n目標買家：[例如：每天久坐 8 小時以上的辦公族、遠距工程師、電競玩家]\n商品定位：[例如：中高階精品，定價 $1,480]\n\n請輸出：\n1. **五感沉浸式開場（2-3 句）**：生動描寫初次接觸商品時的觸感、放鬆感與瞬間卸下疲勞的畫面。\n2. **核心利益條列（Benefits > Features）**：將冷冰冰的材質規格轉化為「告別腰痠背痛」、「久坐依然乾爽」的切身效益。\n3. **這款商品最適合誰 / 不適合誰**：透過坦率的適用人群劃分，建立極高信任度並降低退貨率。\n4. **埋入的 SEO 關鍵字標籤**：列出文案中自然融入的 3-5 個高搜尋意圖關鍵字。"
+      }
+    }
+  },
+  {
+    "id": "context-aware-translator",
+    "category": "translation",
+    "locales": {
+      "en-US": {
+        "title": "Context-Aware Nuanced Translator",
+        "description": "Translate text naturally while preserving tone, cultural idioms, and intended impact.",
+        "tags": [
+          "translation",
+          "localization",
+          "culture",
+          "idioms"
+        ],
+        "prompt": "Act as a master literary and commercial translator fluent in nuanced cross-cultural localization.\n\nSource Language: [e.g. Traditional Chinese / Japanese / Spanish]\nTarget Language: [e.g. US English / Traditional Chinese]\nContext & Channel: [e.g. Formal legal contract / Casual game dialogue / Marketing landing page]\nTone: [e.g. Witty and conversational / Serious and authoritative]\n\nSource Text:\n\"\"\"\n[Paste source text here]\n\"\"\"\n\nProvide:\n1. **Literal Translation**: For exact baseline reference.\n2. **Culturally Localized Translation**: Idiomatic, natural, preserving humor/intent without feeling translated.\n3. **Translator Notes**: Explain why certain idioms were replaced and what cultural nuances influenced choices."
+      },
+      "zh-TW": {
+        "title": "語境化在地雙向翻譯大師",
+        "description": "告別機器翻譯生硬感！精準保留原文幽默、文化雙關與商業語氣的在地化翻譯。",
+        "tags": [
+          "翻譯",
+          "在地化",
+          "母語潤飾",
+          "文化雙關",
+          "雙語翻譯"
+        ],
+        "prompt": "請扮演一位具備多年出版與跨國商務在地化經驗的翻譯大師：\n\n原文語言：[例如：英文 / 日文 / 繁體中文]\n目標語言：[例如：繁體中文（台灣習慣語彙） / 美式英文]\n使用場合與情境：[例如：品牌行銷官網 / 遊戲角色對白 / 正式商務合約 / 技術文檔]\n語氣風格：[例如：幽默風趣、親切口語 / 嚴謹專業、一絲不苟]\n\n原始文本：\n\"\"\"\n[請在此貼上原文]\n\"\"\"\n\n請輸出：\n1. **直譯對照版**：字面忠實對應，供對比檢驗用。\n2. **深度在地化母語版本**：完全符合目標語言母語者閱讀習慣，流暢自然、精準傳達情緒與潛台詞。\n3. **譯者筆記（Translator's Notes）**：說明關鍵成語、文化梗或術語的在地化轉化考量。"
+      }
+    }
+  },
+  {
+    "id": "english-speaking-practice-coach",
+    "category": "translation",
+    "locales": {
+      "en-US": {
+        "title": "Conversational English Roleplay Coach",
+        "description": "Simulate real-life spoken English roleplays with real-time feedback on natural phrasing.",
+        "tags": [
+          "speaking",
+          "roleplay",
+          "fluency",
+          "conversation",
+          "english"
+        ],
+        "prompt": "Act as a friendly, patient native English speaking coach. Let's practice a real-life spoken scenario.\n\nScenario: [e.g. Ordering food at a trendy New York cafe / Negotiating salary with a hiring manager / Chatting at a tech conference mixer]\nMy Role: [e.g. Job candidate / Customer / Conference attendee]\nYour Role: [e.g. Hiring manager / Barista / Senior engineer]\n\nRules for each turn:\n1. Speak in your assigned character (1-3 conversational sentences).\n2. After your character's response, provide a \"Coach Tip\" section:\n   - Point out any awkward phrasing in my last reply.\n   - Show how a native speaker would express the exact same thought naturally.\n   - Introduce 1 useful casual idiom or filler phrase suitable for this context.\n\nBegin by setting the scene in character!"
+      },
+      "zh-TW": {
+        "title": "情境英文口說模擬教練",
+        "description": "沉浸式角色扮演真實生活與職場英語對話，每回合即時提供母語人士表達建議。",
+        "tags": [
+          "英文口說",
+          "角色扮演",
+          "口語表達",
+          "對話教練",
+          "道地英語"
+        ],
+        "prompt": "請扮演一位親切有耐心的母語英語口說教練。我們將進行一場真實生活的情境角色扮演練習：\n\n練習情境：[例如：在紐約精品咖啡館點餐 / 與外商主管協商薪資待遇 / 科技研討會茶歇破冰閒聊]\n我的角色：[例如：求職應徵者 / 顧客 / 參會工程師]\n你的角色：[例如：面試主管 / 店員 / 資深架構師]\n\n每一輪對話的規則：\n1. 先以你的角色身份回覆我（2-3 句自然口語對白）。\n2. 在虛線下方附上「教練點評（Coach Tip）」：\n   - 點評我上一句回覆中是否有文法錯誤或不自然的中式表達。\n   - 給出 1-2 種英美母語人士在相同語境下最道地的說法。\n   - 補充一個適合本場合的常用口語片語或轉折詞。\n\n請直接進入角色，說出情境開場白開始！"
+      }
+    }
+  },
+  {
+    "id": "language-learning-planner",
+    "category": "translation",
+    "locales": {
+      "en-US": {
+        "title": "CEFR-Aligned Language Learning Roadmap",
+        "description": "Design a personalized roadmap to advance from your current level to conversational fluency.",
+        "tags": [
+          "language acquisition",
+          "cefr",
+          "fluency",
+          "study plan"
+        ],
+        "prompt": "Act as a polyglot language acquisition expert. Build a realistic step-by-step roadmap for me to level up my language skills.\n\nTarget Language: [e.g. Japanese / Spanish / German]\nCurrent CEFR Level: [e.g. A1 beginner / B1 intermediate]\nTarget Goal: [e.g. Pass B2 exam / Travel comfortably / Conduct business calls]\nDaily Commitment: [e.g. 45 minutes per day for 3 months]\n\nProvide:\n1. **Skills Breakdown**: Recommended split between Comprehensible Input (listening/reading) vs Output (speaking/writing).\n2. **Weekly Milestone Plan**: Concrete progress stages.\n3. **Immersion Strategy**: 3 free habits to surround myself with the language daily without buying expensive courses.\n4. **Common Pitfalls**: The #1 trap learners fall into at my current level and how to sidestep it."
+      },
+      "zh-TW": {
+        "title": "CEFR 語言能力進階學習地圖",
+        "description": "依據歐洲語言架構（CEFR）量身打造從基礎邁向流暢溝通的聽說讀寫進階藍圖。",
+        "tags": [
+          "語言學習",
+          "CEFR",
+          "多語學習",
+          "沉浸式學習",
+          "自學進度"
+        ],
+        "prompt": "請扮演一位精通多國語言的語言習得專家（Polyglot）。請為我打造一份符合 CEFR 等級標準的扎實語言進修路線圖：\n\n目標語言：[例如：日語 / 西班牙語 / 德語 / 法語]\n目前程度：[例如：完全零基礎 / A2 初級 / B1 中級卡關]\n最終目標：[例如：達到 B2 自由交流 / 日本自助旅行對話無阻 / 能進行商務電話會議]\n每日可投入時間：[例如：每天 45 分鐘，持續 90 天]\n\n請輸出：\n1. **四維訓練配比**：建議的可理解輸入（聽力/閱讀）與主動輸出（口說/寫作）時間分配。\n2. **分階段進度計畫**：每兩週為一個單元的核心訓練目標。\n3. **日常沉浸式習慣設計**：3 個不花大錢就能在生活中營造純外語環境的具體方法。\n4. **當前階段最易踩的雷區**：指出學習者在我這個程度最常遭遇的停滯期陷阱與突破之道。"
+      }
+    }
+  },
+  {
+    "id": "business-english-polisher",
+    "category": "translation",
+    "locales": {
+      "en-US": {
+        "title": "Business English Communication Polisher",
+        "description": "Transform blunt or informal phrasing into diplomatic, executive-ready international English.",
+        "tags": [
+          "business english",
+          "diplomacy",
+          "professionalism",
+          "workplace"
+        ],
+        "prompt": "Act as an executive coach for multinational corporations. Polish the following draft to make it sound professional, polite, and diplomatic in global business contexts.\n\nOriginal Draft:\n\"\"\"\n[Paste raw message, email, or Slack reply here]\n\"\"\"\n\nDesired Tone: [e.g. Assertive yet diplomatic / Warm and supportive / Firm on deadlines]\n\nDeliver:\n1. **Polished Corporate Version**: Refined international English ready to send to clients or executives.\n2. **Tactful Phrase Substitutions**: Show original blunt words alongside elegant corporate alternatives.\n3. **Cultural Safety Check**: Flag any phrasing that might unintentionally offend Western or global counterparts."
+      },
+      "zh-TW": {
+        "title": "跨國商務英文優雅潤飾助手",
+        "description": "將生硬、直白或過於口語的英文草稿，改寫為符合跨國外商規格的優雅得體英文。",
+        "tags": [
+          "商務英文",
+          "職場溝通",
+          "外商文化",
+          "高情商英語",
+          "書信修飾"
+        ],
+        "prompt": "請扮演跨國外商的高階主管溝通教練。請幫我潤飾以下這段可能過於生硬、直白或帶有語病的中式商務英文草稿：\n\n我的原始英文草稿：\n\"\"\"\n[請貼上你寫的英文郵件、Slack 訊息或留言]\n\"\"\"\n\n期望語氣：[例如：堅定但極具外交手腕 / 溫暖同理且具專業感 / 委婉追蹤專案時程]\n\n請輸出：\n1. **精修商務正式版**：符合跨國外商文化、可直接發送的高階版本。\n2. **替換對照解析**：標記出原本哪些直譯用詞顯得過於突兀（Blunt），並給出優雅的同義詞替換方案。\n3. **跨文化溝通警示**：是否有任何字眼在歐美文化中容易被誤解為不耐煩或無禮？"
+      }
+    }
+  },
+  {
+    "id": "cultural-expression-adapter",
+    "category": "translation",
+    "locales": {
+      "en-US": {
+        "title": "Cross-Cultural Slang & Idiom Adapter",
+        "description": "Translate slang, humor, and cultural memes across languages without losing punchlines.",
+        "tags": [
+          "idiom",
+          "slang",
+          "pop culture",
+          "humor",
+          "translation"
+        ],
+        "prompt": "Act as a cultural linguist and pop-culture translator. Help me adapt the slang, meme, or colloquial idiom below between cultures.\n\nExpression to Adapt: [e.g. \"Ghosting someone\", \"躺平 (tang ping)\", \"Bite the bullet\", \"畫大餅\"]\nSource Culture: [e.g. Chinese internet culture / US Gen-Z / British corporate]\nTarget Culture: [e.g. American English / Traditional Chinese Taiwan]\n\nProvide:\n1. **Literal Meaning**: Direct word-for-word translation.\n2. **Cultural Origin & Context**: Why and when this term emerged.\n3. **Closest Target Culture Equivalents**:\n   - The exact functional slang equivalent\n   - A slightly more formal / universal equivalent\n4. **Example Dialogues**: Show how the equivalent is naturally used in conversation."
+      },
+      "zh-TW": {
+        "title": "跨文化流行語與成語轉譯器",
+        "description": "解析網路流行語、迷因梗與俚語的文化背景，找出目標語言中最到位的對應詞。",
+        "tags": [
+          "流行語",
+          "文化梗",
+          "俚語",
+          "迷因轉譯",
+          "文化對照"
+        ],
+        "prompt": "請扮演一位文化語言學家與流行文化翻譯者。請幫我將以下俚語、流行語或文化成語進行跨文化深度解析與轉譯：\n\n欲轉譯的詞彙或表達：[例如：「躺平」、「Ghosting someone」、「畫大餅」、「Bite the bullet」]\n原始文化脈絡：[例如：華語網路文化 / 美國 Z 世代流行語 / 英國傳統諺語]\n目標語言與文化：[例如：美式英文 / 台灣在地用語習慣]\n\n請輸出：\n1. **字面直譯與字源背景**：這個詞的字面意思與最初由何種社會背景衍生而來。\n2. **目標文化中的最佳對應詞（Equivalents）**：\n   - 最貼近且同樣具流行感或口語感的俚語對應詞\n   - 在正式商務場合可替代的通用表達方式\n3. **實境對話示範**：各提供一段 2 句式的自然對話，展現如何在日常中正確使用。"
+      }
+    }
+  },
+  {
+    "id": "brainstorming-facilitator",
+    "category": "creativity",
+    "locales": {
+      "en-US": {
+        "title": "Lateral Thinking Brainstorming Facilitator",
+        "description": "Break creative blocks using SCAMPER and unconventional lateral thinking exercises.",
+        "tags": [
+          "brainstorming",
+          "ideation",
+          "creativity",
+          "innovation",
+          "scamper"
+        ],
+        "prompt": "Act as an innovation facilitator trained in Edward de Bono's lateral thinking and design thinking methodologies.\n\nThe Problem / Challenge: [e.g. How to make a mundane toothbrush exciting for young adults]\nCurrent Obvious Solutions: [e.g. Add bluetooth app, change color options]\n\nHelp me break out of conventional thinking using these prompts:\n1. **The SCAMPER Framework**:\n   - Substitute: What component can we swap out?\n   - Combine: What unrelated industry can we merge with?\n   - Reverse: What if we did the exact opposite of industry standards?\n2. **The Absurd Constraint**: If our budget were $0, how would we solve it? If budget were $10M?\n3. **10 Wild, Unfiltered Ideas**: Ranging from practical innovations to delightfully eccentric concepts.\n4. **Top 2 High-Potential Contenders**: Select the two most promising concepts and define immediate next steps."
+      },
+      "zh-TW": {
+        "title": "水平思考腦力激盪引導師",
+        "description": "運用 SCAMPER 奔馳法與反常識極限約束，突破思維死角，催生令人驚豔的創新點子。",
+        "tags": [
+          "腦力激盪",
+          "水平思考",
+          "創意發想",
+          "SCAMPER",
+          "創新設計"
+        ],
+        "prompt": "請扮演一位受過愛德華·狄波諾水平思考與史丹佛設計思考嚴格訓練的創新引導師：\n\n面臨的挑戰或發想主題：[例如：如何讓枯燥的手工肥皂在年輕族群中引爆話題]\n目前能想到的常見解法：[例如：換文青包裝、請網紅打卡開箱]\n\n請帶領我跳脫框架，提供以下激盪方案：\n1. **SCAMPER 奔馳發想法**：\n   - 替換（Substitute）：產品中有哪個核心元素可以被徹底抽換？\n   - 結合（Combine）：如果跨界結合一個完全不搭嘎的領域（如電競、命理）會怎樣？\n   - 顛覆反轉（Reverse）：如果我們反其道而行，做全市場都明令禁止的事會如何？\n2. **極限約束挑戰**：如果預算只有 0 元該怎麼做？如果這項產品是送給太空人的呢？\n3. **10 個野生大膽創意清單**：從極度接地氣的巧思到腦洞大開的先鋒提案。\n4. **精選 2 個高潛力方案**：挑選出最具可行性與話題性的點子，並附上第一步落地指南。"
+      }
+    }
+  },
+  {
+    "id": "story-plot-generator",
+    "category": "creativity",
+    "locales": {
+      "en-US": {
+        "title": "Compelling Story & Plot Architect",
+        "description": "Construct gripping story outlines using the Hero's Journey and Three-Act Structure.",
+        "tags": [
+          "storytelling",
+          "creative writing",
+          "plot",
+          "fiction",
+          "screenplay"
+        ],
+        "prompt": "Act as a Hollywood screenwriting consultant and narrative architect. Build a captivating story outline based on the seeds below.\n\nGenre: [e.g. Cyberpunk Noir / Psychological Thriller / Cozy Mystery / Sci-Fi Romance]\nCore Protagonist: [e.g. A disgraced memory archivist in a neon-drenched city]\nThe Inciting Incident: [e.g. She finds an unindexed memory containing a murder she allegedly committed]\nCore Theme: [e.g. Memory vs identity, forgiveness]\n\nProvide:\n1. **Logline**: A punchy 1-2 sentence hook combining protagonist, conflict, and stakes.\n2. **Three-Act Structure Outline**:\n   - Act I (Status Quo, Inciting Incident, Plot Point 1)\n   - Act II (Rising Stakes, Midpoint Twist, Dark Night of the Soul)\n   - Act III (Climax, Final Confrontation, Resolution)\n3. **The Core Dilemma**: The impossible moral choice the protagonist must make at the climax."
+      },
+      "zh-TW": {
+        "title": "扣人心弦的故事劇情架構師",
+        "description": "運用經典三幕劇與英雄之旅架構，為小說、短片或腳本打造張力十足的高潮情節。",
+        "tags": [
+          "編劇",
+          "小說創作",
+          "故事大綱",
+          "情節架構",
+          "三幕劇"
+        ],
+        "prompt": "請扮演一位好萊塢資深編劇顧問與敘事架構師。請根據我提供的靈感胚胎，打造一份充滿張力與戲劇衝突的故事大綱：\n\n故事類型：[例如：賽博龐克懸疑 / 心理驚悚 / 科幻奇幻 / 溫馨療癒冒險]\n主角人設：[例如：一位被吊銷執照的前記憶修復師，隱姓埋名在地下街打工]\n引發事件（Inciting Incident）：[例如：在一顆報廢晶片中意外讀取到自己「未來犯下謀殺案」的記憶]\n核心主題：[例如：真實與虛妄、救贖、自由意志]\n\n請輸出：\n1. **一句話故事梗概（Logline）**：結合主角、核心阻礙與重大代價的高吸引力一句話。\n2. **經典三幕劇結構大綱**：\n   - 第一幕：日常現狀、破局危機、跨越第一道門檻\n   - 第二幕：衝突升級、中點巨大反轉、靈魂至暗時刻（看似毫無希望）\n   - 第三幕：絕境反擊、高潮對決、最終蛻變與收尾\n3. **核心道德困境**：主角在高潮時刻必須在「兩個都痛苦」的選擇中做出的終極抉擇。"
+      }
+    }
+  },
+  {
+    "id": "creative-brand-namer",
+    "category": "creativity",
+    "locales": {
+      "en-US": {
+        "title": "Memorable Brand & Product Naming Specialist",
+        "description": "Generate unique, catchy brand names categorized by linguistic style and vibe.",
+        "tags": [
+          "branding",
+          "naming",
+          "startup",
+          "domain name",
+          "marketing"
+        ],
+        "prompt": "Act as a creative brand naming consultant who has named iconic tech startups and consumer products.\n\nWhat the Product Does: [e.g. AI-driven financial tracker for digital nomads]\nTarget Persona & Vibe: [e.g. Modern, trustworthy, minimalist, tech-forward]\nWords / Themes to Explore: [e.g. Flow, compass, wander, vault, coin]\nWords to Avoid: [e.g. Cheap, crypto, bot]\n\nProvide 20 unique brand name candidates organized into 4 distinct styles:\n1. **Real Words with a Twist** (e.g. Stripe, Slack, Notion)\n2. **Portmanteau / Blended Words** (e.g. Instagram, Pinterest, FedEx)\n3. **Abstract / Evocative Words** (e.g. Figma, Spotify, Kodak)\n4. **Compound Descriptive Names** (e.g. Mailchimp, Superhuman, Clearbit)\n\nFor each candidate:\n- Provide pronunciation hint and the underlying emotional connotation.\n- Suggest potential .com / modern TLD availability (.io, .ai, .co)."
+      },
+      "zh-TW": {
+        "title": "品牌與產品命名大師",
+        "description": "從語言學、心理聯想與記憶點出發，產製 20 組不同風格的高辨識度品牌名稱。",
+        "tags": [
+          "品牌命名",
+          "產品命名",
+          "商標發想",
+          "創業公司",
+          "品牌定位"
+        ],
+        "prompt": "請扮演一位曾為眾多知名新創品牌與消費品命名的資深品牌命名顧問：\n\n產品核心功能：[例如：專為數位遊民與自由接案者打造的 AI 個人資產記帳與稅務助手]\n品牌氛圍與調性：[例如：現代簡約、值得信賴、俐落自由、科技感]\n想要關聯的概念或字詞：[例如：流動、指南針、避風港、金幣、旅程]\n希望避開的地雷字詞：[例如：過於廉價俗氣、過於生硬生澀、有投機炒幣感]\n\n請依據以下 4 種命名流派，各提供 5 組（共 20 組）原創名稱候選：\n1. **日常好字新意流**（如：Stripe, Slack, Notion）\n2. **巧妙嫁接融合詞（Portmanteau）**（如：Instagram, Pinterest）\n3. **抽象音韻好記流**（如：Spotify, Figma, Kodak）\n4. **雙詞複合具象流**（如：Mailchimp, Superhuman）\n\n針對每個推薦名稱：\n- 說明其給人的心理聯想與聽覺韻律。\n- 建議適合搭配的網域名稱（如 .com, .ai, .io, .co）。"
+      }
+    }
+  },
+  {
+    "id": "metaphor-creator",
+    "category": "creativity",
+    "locales": {
+      "en-US": {
+        "title": "Evocative Metaphor & Imagery Generator",
+        "description": "Generate poetic, arresting metaphors to elevate speeches, essays, or pitches.",
+        "tags": [
+          "metaphor",
+          "imagery",
+          "rhetoric",
+          "creative writing"
+        ],
+        "prompt": "Act as a master rhetorician and poet. I want to convey a powerful feeling or idea using vivid, original metaphors that stick in the listener's mind.\n\nThe Idea or Emotion to Express: [e.g. The quiet burnout of high-achieving corporate workers / The feeling of falling in love in your 30s]\nTone: [e.g. Melancholic yet beautiful / Punchy and provocative / Hopeful and uplifting]\nTarget Medium: [e.g. Keynote speech / Novel chapter / Thought leadership essay]\n\nGenerate:\n1. **3 Visual Metaphors**: Vivid mental images rooted in nature or physical phenomena.\n2. **3 Mechanical / Modern Metaphors**: Grounded in architecture, technology, or urban environments.\n3. **1 Extended Metaphor (Conceit)**: A 3-4 sentence paragraph developing a single continuous metaphor in depth.\n4. Advice on what clichés to strictly avoid around this topic."
+      },
+      "zh-TW": {
+        "title": "意象與修辭隱喻工坊",
+        "description": "為演講、散文或提案打造獨創且震撼人心的絕美隱喻，揮別陳腔濫調。",
+        "tags": [
+          "修辭隱喻",
+          "文學意象",
+          "創意寫作",
+          "演講修辭",
+          "金句創作"
+        ],
+        "prompt": "請扮演一位大師級修辭學家與詩意散文家。我希望將一種抽象情緒或深邃觀點，轉化為過目難忘、極具畫面感的原創隱喻：\n\n欲表達的情感或核心觀點：[例如：高績效菁英職場人無聲無息的慢性倦怠 / 30 歲後遇見心動對象的謹慎與雀躍]\n期望基調：[例如：哀傷中帶著力量 / 犀利帶刺直指人心 / 溫暖療癒且富有希望]\n應用媒介：[例如：千人年會演講開場 / 小說重要轉折段落 / 專欄評論]\n\n請產出：\n1. **3 組自然物理系隱喻**：取法自然界（潮汐、風蝕、星體、冰裂）的深刻畫面。\n2. **3 組現代都市與工藝隱喻**：源於建築結構、金屬疲勞、電路訊號或都市地景的意象。\n3. **1 段完整的延伸隱喻（Extended Metaphor）**：約 150 字的優美段落，將單一隱喻層層推進至極致。\n4. 提醒：針對此主題，有哪些已被用爛的陳腔濫調（Clichés）必須絕對避開。"
+      }
+    }
+  },
+  {
+    "id": "character-developer",
+    "category": "creativity",
+    "locales": {
+      "en-US": {
+        "title": "Three-Dimensional Character Dossier Creator",
+        "description": "Build deeply nuanced, flawed, and memorable fictional characters with psychological depth.",
+        "tags": [
+          "character design",
+          "fiction",
+          "worldbuilding",
+          "writing"
+        ],
+        "prompt": "Act as a veteran literary novelist and character designer. Develop a multi-dimensional, memorable character based on the initial spark below.\n\nCharacter Spark: [e.g. A cynical forensic accountant who secretly collects vintage mechanical music boxes]\nSetting / World: [e.g. Near-future Singapore or Victorian London]\nRole in Story: [Protagonist / Antagonist / Mentor / Foil]\n\nBuild a character dossier including:\n1. **The Public Mask vs The Hidden Wound**: What they show the world vs the childhood trauma or regret driving them.\n2. **The Core Contradiction**: The paradoxical flaw that makes them feel human (e.g. deeply kind yet pathologically dishonest).\n3. **Sensory Idiosyncrasies**: Distinctive vocal quirks, physical mannerisms, and signature scent or aesthetic.\n4. **The Ghost & The Lie They Believe**: The false belief about the world they must unlearn to grow.\n5. **A Short Monologue (4-6 lines)** showing their authentic voice in high-stress dialogue."
+      },
+      "zh-TW": {
+        "title": "立體人物小傳與心理側寫師",
+        "description": "打造具備內在矛盾、隱秘創傷與獨特說話風格的三維立體小說人物，告別扁平臉譜化。",
+        "tags": [
+          "角色設計",
+          "人物設定",
+          "小說人設",
+          "心理側寫",
+          "虛構寫作"
+        ],
+        "prompt": "請扮演一位資深純文學作家與好萊塢角色塑造專家。請根據以下靈感種子，為我建構一位飽滿立體、具有人性矛盾與記憶點的角色小傳：\n\n角色雛形：[例如：一位表面刻薄冷漠的鑑識會計師，私下卻狂熱修復古董發條音樂盒]\n故事背景：[例如：近未來潮濕悶熱的東亞海港城 / 現代繁華高壓的金融中心]\n在劇中定位：[主角 / 反派 / 靈魂導師 / 亦正亦邪的關鍵配角]\n\n請輸出完整的人物設定檔案：\n1. **社交面具 vs 核心創傷**：他在眾人面前展現的人設，以及埋藏在內心深處、驅使他所有行為的原始遺憾。\n2. **核心矛盾性（The Contradiction）**：讓他像個活生生的人的人性自相矛盾點（如：極度渴望被愛卻又有毀滅親密關係的強迫症）。\n3. **獨特感官標誌**：標誌性口頭禪、小動作習慣、以及個人的專屬氣味或穿搭細節。\n4. **心中的幽靈與錯誤信念**：他對這個世界深信不疑的偏見或謊言，也是他成長路上必須打破的壁壘。\n5. **一段 4-6 句的角色高壓獨白**：在面臨極端抉擇時，展現其獨特說話節奏與口吻的台詞。"
+      }
+    }
+  },
+  {
+    "id": "travel-itinerary-planner",
+    "category": "daily-life",
+    "locales": {
+      "en-US": {
+        "title": "Smart Travel Itinerary Architect",
+        "description": "Design balanced, cluster-optimized travel schedules with hidden gems and food stops.",
+        "tags": [
+          "travel",
+          "itinerary",
+          "vacation",
+          "trip planning"
+        ],
+        "prompt": "Act as an experienced travel journalist and local guide. Build an unforgettable, geographically optimized travel itinerary.\n\nDestination: [e.g. Kyoto and Osaka, Japan]\nTrip Duration: [e.g. 5 days, 4 nights]\nTravel Companions: [e.g. Couple celebrating anniversary / Family with toddler / Solo backpacker]\nTravel Style & Interests: [e.g. Foodies, historic temples, relaxed pace, avoid massive crowds]\nBudget Level: [Moderate / Luxury / Backpacker]\n\nProvide:\n1. **Day-by-Day Clustered Itinerary**: Group attractions by neighborhood to minimize transit fatigue.\n2. **Morning / Afternoon / Evening Breakdown**:\n   - Highlight of the block\n   - Must-order local dish and restaurant tip\n   - Scenic walking route between stops\n3. **Local Etiquette & Hacks**: 3 insider tips to save time or avoid cultural faux pas.\n4. **Packing Essentials**: 3 non-obvious items to bring for this specific destination."
+      },
+      "zh-TW": {
+        "title": "分區最佳化旅遊行程規劃師",
+        "description": "根據同行動線精準分區排程，告別走馬看花與交通折騰，享受在地深度美食與私房景點。",
+        "tags": [
+          "旅遊行程",
+          "自助旅行",
+          "排行程",
+          "美食地圖",
+          "度假規劃"
+        ],
+        "prompt": "請扮演一位踏遍全球的資深旅遊作家與在地嚮導。請為我規劃一份兼顧動線流暢、避開擁擠人潮且富含在地美食的客製化旅行計畫：\n\n目的地：[例如：日本京都與宇治]\n旅遊天數：[例如：5 天 4 夜]\n同行夥伴：[例如：情侶週年紀念 / 帶長輩出遊 / 獨旅背包客]\n旅行風格與喜好：[例如：特愛咖啡廳與古寺枯山水、節奏悠閒、熱愛拍照打卡但討厭行軍式趕路]\n預算等級：[平價小資 / 中階舒適 / 奢華享受]\n\n請產出：\n1. **每日分區動線規劃（Cluster Itinerary）**：將同區域景點集中安排，最大化步行散步樂趣、大幅減少轉車疲勞。\n2. **上午 / 下午 / 傍晚行程細節**：\n   - 推薦亮點活動與私房散步路線\n   - 在地必吃私房美食與點餐指南\n   - 最佳拍照光線時段\n3. **內行玩家秘訣**：3 個省排隊時間的撇步或當地文化禮儀禁忌。\n4. **特別行李打包提醒**：3 件針對該季節與目的地的隱藏必帶實用好物。"
+      }
+    }
+  },
+  {
+    "id": "decision-making-helper",
+    "category": "daily-life",
+    "locales": {
+      "en-US": {
+        "title": "Multi-Criteria Decision Matrix Helper",
+        "description": "Resolve stressful dilemmas using regret minimization and weighted decision frameworks.",
+        "tags": [
+          "decision making",
+          "dilemma",
+          "clarity",
+          "psychology",
+          "career"
+        ],
+        "prompt": "Act as an executive decision counselor and cognitive behavioral coach. Help me make a clear-headed, rational choice between difficult options.\n\nThe Decision Dilemma: [e.g. Stay at stable corporate job vs Join high-risk early-stage AI startup]\nOption A: [Details, pros, and cons]\nOption B: [Details, pros, and cons]\nWhat is keeping me awake at night: [e.g. Fear of financial instability vs Fear of career stagnation]\n\nAnalyze using these 3 frameworks:\n1. **The 10/10/10 Rule**: How will I feel about this choice in 10 minutes? 10 months? 10 years?\n2. **Jeff Bezos' Regret Minimization Framework**: Projecting to age 80, which path would I regret NOT attempting?\n3. **Pre-Mortem Analysis**: Assume Option A failed catastrophically in 12 months—why did it fail? Now do the same for Option B.\n4. **Next 24-Hour Micro-Test**: What single low-risk action can I take today to gather one more crucial piece of data?"
+      },
+      "zh-TW": {
+        "title": "重大決策分析與懊悔最小化導航",
+        "description": "告別選擇障礙與內耗！運用 10/10/10 法則、事前驗屍與懊悔最小化模型理性釐清選擇。",
+        "tags": [
+          "決策分析",
+          "選擇障礙",
+          "職涯選擇",
+          "心理學",
+          "思維模型"
+        ],
+        "prompt": "請扮演一位高階主管的決策心理諮商顧問與思維模型專家。我正面臨一個讓我輾轉反側的重大抉擇，請協助我客觀理性剖析：\n\n面臨的兩難決策：[例如：留在穩定的知名外商 vs 降薪加入充滿不確定性的種子輪新創]\n選項 A：[方案細節、潛在利益與犧牲]\n選項 B：[方案細節、潛在利益與犧牲]\n我目前最大的焦慮與恐懼：[例如：害怕財務斷炊 vs 害怕再過三年履歷停滯被淘汰]\n\n請帶領我走過 3 大決策框架：\n1. **10/10/10 法則**：這個選擇在 10 分鐘後會如何？10 個月後如何？10 年後又會如何影響我的人生？\n2. **貝佐斯「懊悔最小化模型」（Regret Minimization）**：當我 80 歲坐在搖椅上回顧一生時，我會因為「嘗試過但失敗」還是「從沒敢嘗試過」而感到更深懊悔？\n3. **事前驗屍法（Pre-Mortem）**：假設一年後選項 A 徹底崩盤失敗，最可能是因為什麼原因？同理分析選項 B。\n4. **24 小時微型驗證行動**：今天可以立刻執行的哪一項低成本小動作，能幫我獲得關鍵情報？"
+      }
+    }
+  },
+  {
+    "id": "healthy-meal-planner",
+    "category": "daily-life",
+    "locales": {
+      "en-US": {
+        "title": "Quick & Balanced Weekly Meal Planner",
+        "description": "Generate delicious, nutrient-dense weekly meal plans with a consolidated grocery checklist.",
+        "tags": [
+          "nutrition",
+          "meal prep",
+          "healthy eating",
+          "fitness",
+          "cooking"
+        ],
+        "prompt": "Act as a sports nutritionist and practical chef. Design a simple, delicious 5-day meal plan tailored to my dietary lifestyle.\n\nDietary Preference / Goals: [e.g. High protein, Mediterranean, low-carb, vegetarian]\nCooking Skill & Time: [e.g. Under 30 minutes active cooking per meal, batch cooking friendly]\nCalorie / Macro Target (Optional): [e.g. ~2000 kcal, 120g protein]\nFoods I Dislike / Allergies: [e.g. No seafood, no cilantro]\n\nProvide:\n1. **Monday to Friday Menu**:\n   - Breakfast, Lunch, and Dinner (clean, real ingredients with minimal cleanup)\n   - Afternoon High-Protein Energy Snack\n2. **Consolidated Grocery List**: Grouped logically by supermarket section (Produce, Protein, Pantry).\n3. **Sunday 1-Hour Prep Routine**: What to chop, bake, or marinate ahead of time to make weekdays effortless."
+      },
+      "zh-TW": {
+        "title": "高效率健康週飲食與備餐規劃師",
+        "description": "兼顧營養美味與省時備餐，設計 5 日高蛋白均衡菜單並產出分類採買清單。",
+        "tags": [
+          "健康飲食",
+          "備餐 Meal Prep",
+          "減脂增肌",
+          "省時料理",
+          "採買清單"
+        ],
+        "prompt": "請扮演一位重視實效的運動營養師與健康主廚。請為我規劃一套週一至週五的高效、美味且營養均衡的健康餐飲計畫：\n\n飲食偏好與目標：[例如：增肌減脂高蛋白、地中海飲食、低碳生酮、蛋奶素]\n烹飪時間與限制：[例如：每餐開火不超過 25 分鐘、適合週末一次性備餐常備菜]\n熱量或營養訴求：[例如：每日約 1800 大卡、蛋白質 100g 以上]\n飲食禁忌與不吃食材：[例如：不吃香菜、乳糖不耐、對堅果過敏]\n\n請輸出：\n1. **週一至週五每日菜單**：\n   - 早餐、午餐、晚餐（食材天然原形、步驟簡單、鍋具好洗）\n   - 下午提神的高蛋白低負擔點心\n2. **超市採買總清單（Categorized Grocery List）**：依照超市動線分類（生鮮蔬果區、優質蛋白質區、常備乾貨調料區）。\n3. **週末 45 分鐘高效備餐指南**：哪些食材可以先洗切、烤好或醃製冷藏，讓平日下班 10 分鐘開飯。"
+      }
+    }
+  },
+  {
+    "id": "personal-finance-advisor",
+    "category": "daily-life",
+    "locales": {
+      "en-US": {
+        "title": "Personal Budget & Wealth Allocation Coach",
+        "description": "Establish clear savings rates, emergency funds, and investment buckets without spreadsheets.",
+        "tags": [
+          "personal finance",
+          "budgeting",
+          "investing",
+          "wealth",
+          "money"
+        ],
+        "prompt": "Act as a certified fee-only personal finance planner. Help me organize my money and create a stress-free financial allocation framework.\n\nMonthly Net Take-Home Income: [e.g. $5,000 / month or NT$80,000 / month]\nFixed Living Costs (Rent, Utilities, Food): [e.g. ~60% of income]\nCurrent Debts (if any): [e.g. Student loan $15,000 at 4% interest]\nFinancial Goals: [e.g. Build 6-month emergency fund, start investing in index funds, save for a home down payment]\n\nDesign a straightforward plan covering:\n1. **The 50/30/20 or Custom Split**: Clear dollar amounts allocated for Needs, Wants, and Wealth-Building.\n2. **Emergency Runway Strategy**: Where to park safety funds (high-yield savings, money market) and exact target size.\n3. **Debt Payoff vs Investing Order of Operations**: Should I pay debt first or invest in parallel?\n4. **Automation Blueprint**: How to set up automated bank transfers on payday so saving happens effortlessly."
+      },
+      "zh-TW": {
+        "title": "個人財務預算與資產配置規劃師",
+        "description": "運用薪水自動分流與理財優先順序，擺脫記帳焦慮，建立穩健的儲蓄與被動投資系統。",
+        "tags": [
+          "個人理財",
+          "預算分配",
+          "資產配置",
+          "財務自由",
+          "存錢自動化"
+        ],
+        "prompt": "請扮演一位客觀中立、不推銷任何金融商品的認證財務規劃顧問（CFP）。請幫我建立一套清楚、自動化運轉且無壓力的個人財務配置系統：\n\n每月稅後實領收入：[例如：新台幣 75,000 元]\n每月固定必要開銷（房租、水電、伙食、通勤）：[例如：約佔 45,000 元]\n目前負債狀況：[例如：學貸還有 20 萬（利率 1.6%） / 無卡債]\n核心理財目標：[例如：建立 6 個月緊急備用金、開始定期定額 ETF 指數投資、存買房頭期款]\n\n請為我量身設計：\n1. **黃金比例收入分配盤**：具體換算為每月實際撥入「生存必須帳戶」、「生活享樂帳戶」、「資產累積帳戶」的金額數字。\n2. **緊急備用金配置策略**：備用金目標水位該設為多少？建議停泊在何種低風險、高流動性工具中。\n3. **還債 vs 投資的先後順序**：在現有利率環境下，應該先加速還清貸款還是同步進場投資？\n4. **發薪日全自動分流藍圖**：如何設定銀行自動轉帳排程，達成「發薪日當天無痛儲蓄與投資」的紀律系統。"
+      }
+    }
+  }
+]

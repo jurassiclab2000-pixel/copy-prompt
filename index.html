@@ -1,1 +1,182 @@
-<h1> Copy your AI prompt</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CopyPrompt - Discover. Copy. Use with ChatGPT, Gemini & Claude</title>
+  <meta name="description" content="Discover curated, high-converting AI prompts. Copy with one click and use immediately with ChatGPT, Claude, and Gemini." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CopyPrompt - Ready-to-use AI Prompts" />
+  <meta property="og:description" content="Find the perfect prompt for ChatGPT, Gemini, Claude and more. Discover, copy, and achieve better AI results instantly." />
+  <meta property="og:image" content="assets/favicon.svg" />
+  
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="./" class="brand-link">
+        <img src="assets/favicon.svg" alt="CopyPrompt Logo" class="brand-logo" />
+        <span>Copy<span class="brand-gradient">Prompt</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="#prompts-section">
+              <span class="nav-item-text" data-i18n="nav.explore">Explore Prompts</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-section">
+              <span class="nav-item-text" data-i18n="nav.about">About</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <button id="fav-nav-btn" class="nav-action-btn" title="Favorites">
+              <span>❤️</span>
+              <span class="nav-item-text" data-i18n="nav.favorites">Favorites</span>
+              <span id="fav-count-badge" class="fav-badge">0</span>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button id="lang-switch-btn" class="lang-btn" aria-label="Toggle language">
+              🌐 <span>中文</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-pill">
+        <span>⚡</span>
+        <span>50+ High-Impact Curated AI Prompts</span>
+      </div>
+      <h1 class="hero-title">
+        <span data-i18n="hero.title">Discover. Copy. Use.</span>
+      </h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">
+        Find the perfect prompt for ChatGPT, Gemini, Claude and more.
+      </p>
+
+      <!-- Instant Search Box -->
+      <div class="search-wrapper">
+        <div class="search-input-container">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input 
+            type="text" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="Search prompts... e.g. write an email, learn English, debug code" 
+            data-i18n-placeholder="search.placeholder"
+            autocomplete="off" 
+            spellcheck="false" 
+          />
+          <button id="search-clear" class="search-clear-btn" aria-label="Clear search input">✕</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Filter -->
+  <section class="filter-section">
+    <div class="container">
+      <div id="categories-container" class="category-scroll-container">
+        <!-- Rendered dynamically via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Prompts Grid Section -->
+  <main id="prompts-section" class="prompts-section">
+    <div class="container">
+      <div class="section-header-row">
+        <div id="results-count" class="results-count">Loading prompts...</div>
+      </div>
+      <div id="prompts-grid" class="prompts-grid">
+        <!-- Prompt cards injected by app.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Value & About Section -->
+  <section id="about-section" class="about-section">
+    <div class="container">
+      <div class="about-header">
+        <h2 data-i18n="about.title">About CopyPrompt</h2>
+        <p data-i18n="about.desc">CopyPrompt is a curated library of ready-to-use AI prompts. Browse, copy, and use them instantly with ChatGPT, Gemini, Claude, and any other AI assistant.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon-box">📋</div>
+          <h3>1-Click Copy</h3>
+          <p>No signup, no waiting, no friction. Click copy and immediately paste into your favorite AI tool.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon-box">🎯</div>
+          <h3>Tested & Proven</h3>
+          <p>Carefully engineered prompts designed with roles, concrete constraints, and production-ready outputs.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon-box">🤖</div>
+          <h3>Model Agnostic</h3>
+          <p>Works seamlessly across ChatGPT, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama, and deep research assistants.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon-box">🔒</div>
+          <h3>Privacy-First</h3>
+          <p>100% client-side. Your saved favorites are stored locally in your browser. No tracking, no backend required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/favicon.svg" alt="CopyPrompt" width="24" height="24" />
+            <span>Copy<span class="brand-gradient">Prompt</span></span>
+          </div>
+          <p class="footer-desc" data-i18n="footer.desc">
+            A curated collection of ready-to-use prompts for your favorite AI tools.
+          </p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#about-section" data-i18n="footer.about">About</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-i18n="footer.contact">Contact / GitHub</a></li>
+          <li><a href="#" onclick="alert('CopyPrompt is a free, privacy-first static website. No personal cookies or private data are tracked.'); return false;" data-i18n="footer.privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 CopyPrompt. Open Source & Ready to Deploy.</div>
+        <div>Designed for creators, engineers & professionals worldwide.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
